@@ -1,0 +1,120 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock style %}
+
+{% block title %}
+    Extra - Mars Marketing
+{% endblock title %}
+
+{% block content %}
+
+    <section class="intro intro-extra intro-services">
+        
+        <div class="intro-inner">
+            <div class="container">
+                        
+                <div class="intro-text">
+                    <h2 class="intro-title intro-smm-title intro-services-title">{% trans 'Extra услуги' %}</h2>
+                    <p class="intro-subtitle">
+                        {% trans 'Продвижение вашего компании и мы предлагаем вам google ads, yandex metrika seo оптимизация и др.' %}
+                    </p>
+                </div>
+
+            </div>
+        </div> <!-- intro - inner end// -->
+        
+    </section>
+
+    
+
+    <section class="service service-smm">
+        <div class="container">
+                <div class="service-header">
+                    <h1 class="service-title">Extra Services</h1>
+                </div>
+                <div class="service-main">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <article class="service-card">
+                                <h3 class="title">SEO   </h3>
+                                <hr>
+                                <p class="content">
+                                    {% trans 'SEO-оптимизация – поисковое продвижение, направленное на развитие вашего web-сайта, с целью улучшения позиций по целевым запросам в поисковиках (Google, Яндекс, Mail.ru и др.)'  %}
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 service-txt-center">
+                            <article class="service-card">
+                                <h3 class="title">MEDIA</h3>
+                                <hr>
+                                <p class="content">
+                                   {% trans 'Этот способ продвижения бренда на рынке позволяет размещать баннерную рекламу на всех доступных интернет-платформах, будь то сайт, либо мобильное приложение с нужной ЦА.' %}
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 service-txt-right">
+                            <article class="service-card">
+                                <h3 class="title">YOUTUBE</h3>
+                                <hr>
+                                <p class="content">
+                                    {% trans 'Оптимальный вариант для размещения рекламного видеоролика, который будет показан всем пользователям YouTube, подходящим под необходимую аудиторию' %}.
+                                </p>
+
+                            </article>
+                        </div>
+                    </div> <!-- service-main end //-->
+                </div>
+        </div>
+    </section>
+
+    {% include "parts/hope.html" %}
+
+    {% include "parts/projects-service.html" %}
+
+
+    {% include "parts/sponsors.html" %}
+
+
+    {% block script %}
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 100,
+            height: 100,
+            slidesPerView: 2,
+            centeredSlides: true,
+            loop:true,
+            spaceBetween: 20,
+
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                }
+            }
+        });
+    </script>
+
+    
+    {% endblock script %}
+
+{% endblock %}

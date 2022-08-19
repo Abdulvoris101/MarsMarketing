@@ -1,0 +1,763 @@
+@media (max-width: 300px ) and (min-width: 100px ) {
+    /* .intro-text {
+        transform: translateY(-40%);
+    } */
+}
+
+@media (max-width:480px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    
+    /* Contact  */
+    .contact-title {
+        font-size: 25px !important;
+    }
+
+    .offer-title {
+        font-size: 25px ;
+    }
+    .ads-title {
+        padding-left: 10px;
+        font-size: 35px;
+    }
+
+    /* Offer */
+    
+    /* Logo */
+    .mobile-logo {
+        display: block;
+    }
+    .mobile-logo img{
+        width: 95px;
+        margin-left: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    
+    /* Navbar */
+    .nav-inner {
+        display: block;
+    }
+    .extra-nav {
+        position: relative;
+        text-align: center;
+    }
+    .p-extra-nav {
+        display: block;
+    }
+
+    .nav-items {
+        background-color: rgb(0, 0, 0);
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding-top: 30%;
+        transition: all .2s linear;
+        display: block;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+    #dropdownMenuLink {
+        display: none;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        padding-left: 20px !important;
+        padding-top: 3px;
+    }
+    .nav-item-search span{
+        border-radius: 50%;
+        padding: 15px;
+        margin-left: 0;
+        background-color: rgb(24 24 24);
+    }
+    .nav-li-search {
+        position: absolute;
+        bottom: 120px;
+        left: 28px;
+    }
+    .nav-item a{
+        color: #fff !important;
+        font-size: 25px;
+    }
+
+    /* Dropdown */
+    .nav-dropdown-menu {
+        display: none !important;
+        padding-left: 0 !important;
+        margin-left: 0;
+    }
+    #dropdownMenu2 {
+        display: none;
+    }
+    .mobile-dropdown-menu a {
+        font-size: 19px;
+        color: #eee !important;
+        font-weight: normal;
+    }
+    .mobile-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .nav-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .mobile-dropdown-menu li {
+        padding-left: 0;
+    }
+
+    #dropdownMenuLink2 {
+        display: block;
+    }
+    #dropdownMenuLink1 {
+        display: none;
+    }
+    /* Mobile Nav */
+
+    .nav-mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        position: absolute;
+        z-index: 1100;
+        margin-right: 20px;
+    }
+
+    /* Intro */
+    .intro {
+        height: 100vh;
+    }
+
+    .btn-cnc {
+        text-align: left !important;
+        padding-left: 15px;
+    }
+
+    .intro-index-text {
+        padding-left: 15px;
+    }
+    .intro-index-text .intro-title {
+        width: 30%;
+        font-size: 32px !important;
+        margin-bottom: 15px;
+    }
+    .intro-about-title {
+        padding-left: 15px;
+    }
+    .intro-title {
+        display: block;
+        font-size: 35px !important;
+        margin-top: 0 !important;
+        font-family: 'Gilroy' !important;
+    }
+    .intro-patitle {
+        font-size: 17px;
+        padding-bottom: 10px;
+        font-family: 'Gilroy' !important;
+    }
+    .intro-link-i {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .intro-smm-title {
+        font-size: 35px !important;
+    }
+
+    .intro-subtitle {
+        font-size: 16px !important;
+    }
+    
+    
+    .intro-text p {
+        color: #f1f1f1;
+    }
+
+    .intro-text {
+        padding-left: 14px;
+    }
+
+    
+    .intro-portfolio {
+        height: 55vh !important;
+    }
+
+    .intro-portfolio .intro-inner{
+        height: 60vh !important;
+    }
+    
+
+    /* Intro COntact */
+    .intro-contact .btn-cnc {
+        text-align: center;
+        padding-left: 0;
+    }
+    .intro-contact {
+        padding-top: 0 !important;
+        height: 55vh !important;
+    }
+    /* .mobile-intro {
+        display: block !important;
+    }
+    .intro-row {
+        display: none !important;
+    } */
+    /* Mars */
+
+    .planet {
+        display: block;
+	    min-height: 30vh;
+    }
+
+    .planet.planet-mars .container .mars {
+        width: 230px;
+        height: 230px;
+    }
+    .planet .loader {
+        width: 270px;
+        height: 270px;
+
+    }
+
+    /* Burger Menu =======================
+    ===================================
+     */
+
+    .menu-icon {
+        transform: scale(1.5);
+    }
+    
+    :root {
+    --bar-bg: #ffffff;
+    }
+    
+    .menu-icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu-icon .menu-icon__cheeckbox {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        -webkit-touch-callout: none;
+        position: absolute;
+        opacity: 0;
+    }
+    .menu-icon div {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 22px;
+        height: 12px;
+    }
+    .menu-icon span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bar-bg, rgb(255, 255, 255));
+        border-radius: 1px;
+    transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+    }
+    .menu-icon span:first-of-type {
+        top: 0;
+    }
+    .menu-icon span:last-of-type {
+        bottom: 0;
+    }
+    .menu-icon.active span:first-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:first-of-type {
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    .menu-icon.active span:last-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:last-of-type {
+        transform: rotate(-45deg);
+        bottom: 5px;
+    }
+    .menu-icon.active:hover span:first-of-type, .menu-icon.active:hover span:last-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:first-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:last-of-type {
+        width: 22px;
+    }
+
+
+    /* Sponsor */
+
+    .sponsor-main {
+        width: 100% !important;
+    }
+
+    /* Services */
+    .service-card {
+        padding-left: 15px;
+    }
+    .service-txt-center {
+        text-align: left;
+    }
+    .service-txt-right {
+        text-align: left;
+    }
+
+    /* FOrm Contact */
+    .form-contact {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parent-btn-contact {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding-left: 20px;
+    }
+
+    .pl-service {
+        padding-left: 5px;
+    }
+
+    .work-main {
+        padding-top: 0 !important;
+    }
+    .sponsor-main {
+        padding-bottom: 20px !important;
+    }
+
+    /* Hope */
+
+    .hope-text {
+        
+        text-align: center;
+    }
+
+    .btn-cnc  {
+        text-align: center;
+    }
+
+    .about-us-title {
+        padding-top: 20px !important;
+        padding-bottom: 10px;
+    }
+    .about-us-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-subtitle {
+        width: 330px;
+    }
+
+    .search-btn {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .search-dv {
+        justify-content: center;
+        width: 85% !important;
+    }
+    .close-btn {
+        top: 40px !important;
+        right: 25px !important;
+    }
+    .close-btn span {
+        font-size: 28px !important;
+        color: #eee;
+    }
+
+    .service-card .title {
+        font-size: 20px;
+    }
+
+    .p-project-title {
+        
+        font-size: 28px !important;
+    }
+
+    .contact_us-text  {
+        padding-left: 10px;
+    }
+    .p-form-contact h3 {
+        padding-left: 10px;
+    }
+
+    .intro-contact .intro-inner {
+        height: 65vh !important;
+    }
+
+    .contact_us-main-service {
+        margin-bottom: 20px;
+    }
+    
+    .bottom-s {
+        bottom: 60px !important;
+    }
+    .bottom-s-inner {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .intro-text p {
+        color: #f1f1f1;
+    }
+
+
+    .intro-home {
+        height: 110vh !important;
+    }
+    
+     /* Intro */
+     .intro-title {
+        display: block;
+        font-size: 30px !important;
+        width: 100%;
+    }
+    .intro-about-title {
+        padding-top: 35px;
+        padding-left: 15px;
+
+    }
+
+    .intro-smm-title {
+        font-size: 35px !important;
+    }
+    .intro-subtitle {
+        font-size: 16px !important;
+    }
+    .btn-cnc {
+        text-align: left !important;
+        padding-left: 15px;
+    }
+    /* Mars */
+
+    .index-intro {
+        padding-top: 140px;
+    }
+
+    .intro-patitle {
+        font-size: 16px;
+        font-family: 'Gilroy' !important;
+    }
+
+    .index-intro .intro-title {
+        font-size: 25px !important;
+    }
+
+    /* Hope */
+
+    .hope-text {
+        text-align: center;
+    }
+
+    .contact_us-main-service {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width:960px) and (min-width: 480px){
+    
+    #dropdownMenuLink {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+        margin-top: 20px;
+    }
+    .mobile-logo img{
+        width: 155px;
+        margin-left: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    
+    /* Navbar */
+    .nav-inner {
+        display: block;
+    }
+    .extra-nav {
+        position: relative;
+        text-align: center;
+    }
+    .p-extra-nav {
+        display: block;
+    }
+
+    .nav-items {
+        background-color: rgb(0, 0, 0);
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding-top: 30%;
+        transition: all .2s linear;
+        display: block;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        padding-left: 20px !important;
+        padding-top: 3px;
+    }
+    .nav-item-search span{
+        border-radius: 50%;
+        padding: 15px;
+        margin-left: 0;
+        background-color: rgb(24 24 24);
+    }
+    .nav-li-search {
+        position: absolute;
+        bottom: 120px;
+        left: 28px;
+    }
+    .nav-item a{
+        
+        color: #fff !important;
+        font-size: 35px;
+    }
+    /* Mobile Nav */
+
+    .nav-mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        position: absolute;
+        z-index: 1100;
+        margin-right: 20px;
+    }
+
+    /* Dropdown */
+    .nav-dropdown-menu {
+        display: none !important;
+        padding-left: 0 !important;
+        margin-left: 0;
+    }
+    #dropdownMenu2 {
+        display: none;
+    }
+    .mobile-dropdown-menu a {
+        font-size: 19px;
+        color: #eee !important;
+        font-weight: normal;
+    }
+    .mobile-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .nav-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .mobile-dropdown-menu li {
+        padding-left: 0;
+    }
+    /* Intro */
+    .intro-patitle {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .intro-title {
+        display: block;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .intro-portfolio {
+        height: 55vh !important;
+    }
+
+    .intro-portfolio .intro-inner{
+        height: 60vh !important;
+    }
+
+    .intro-contact-title {
+        padding-bottom: 0 !important;
+    }
+    .intro-text {
+        transform: translateY(-30%);
+    }
+    .intro-subtitle {
+        width: 450px;
+        padding-left: 15px;
+        font-size: 18px;
+        font-family: 'Gilroy';
+    }
+    .intro-text p {
+        color: #f1f1f1;
+    }
+    .hope-img {
+        width: 340px;
+        display: block;
+    }
+
+    
+        
+
+    /* .mobile-intro {
+        display: block !important;
+    }
+    .intro-row {
+        display: none !important;
+    } */
+
+    /* Mars */
+
+    .planet {
+        display: block;
+	    min-height: 30vh;
+    }
+
+    .planet.planet-mars .container .mars {
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .planet .loader {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+
+    }
+
+    /* Burger Menu =======================
+    ===================================
+     */
+
+    .menu-icon {
+        
+        transform: scale(1.5);
+    }
+    
+    :root {
+    --bar-bg: #ffffff;
+    }
+    
+    .menu-icon {
+        
+        position: relative;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu-icon .menu-icon__cheeckbox {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        -webkit-touch-callout: none;
+        position: absolute;
+        opacity: 0;
+    }
+    .menu-icon div {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 22px;
+        height: 12px;
+    }
+    .menu-icon span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bar-bg, rgb(255, 255, 255));
+        border-radius: 1px;
+    transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+    }
+    .menu-icon span:first-of-type {
+        top: 0;
+    }
+    .menu-icon span:last-of-type {
+        bottom: 0;
+    }
+    .menu-icon.active span:first-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:first-of-type {
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    .menu-icon.active span:last-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:last-of-type {
+        transform: rotate(-45deg);
+        bottom: 5px;
+    }
+    .menu-icon.active:hover span:first-of-type, .menu-icon.active:hover span:last-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:first-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:last-of-type {
+        width: 22px;
+    }
+
+
+    /* Sponsor */
+
+    .sponsor-main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Services */
+    .service-card {
+        padding-left: 15px;
+    }
+    .service-txt-center {
+        text-align: left;
+    }
+    .service-txt-right {
+        text-align: left;
+    }
+    .footer {
+        padding-left: 2%;
+    }
+    .btn-cnc  {
+        padding-left: 15px;
+    }
+    #dropdownMenuLink2 {
+        display: block;
+    }
+    .hope-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-about-title {
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .intro-text {
+        transform: translateY(0%) !important;
+    }
+    .about-us-title {
+        padding-top: 20px;
+    }
+    .contact_us-service p  {
+        width: 100% !important;
+    }
+}

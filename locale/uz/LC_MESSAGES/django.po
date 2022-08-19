@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-07 00:37+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\templates\core\404.html:5
+msgid "Страница не найдена"
+msgstr "Sahifa Topilmadi"
+
+#: .\templates\core\404.html:24
+msgid "404 - Страница, которую вы ищете, не существует."
+msgstr "404 - Siz izlayotgan sahifa mavjud emas "
+
+#: .\templates\core\about.html:32
+msgid "Эффективное Маркетинг Агенство"
+msgstr "Samarali marketing agentligi"
+
+#: .\templates\core\about.html:35
+msgid "Позвоните нам"
+msgstr "Bizga qo'ng'iroq qiling"
+
+#: .\templates\core\about.html:55 .\templates\parts\nav.html:42
+msgid "О нас"
+msgstr "Haqimizda"
+
+#: .\templates\core\about.html:58
+msgid ""
+"Mars Marketing — креативное маркетинговое агентство, ориентированное на "
+"результат. За 1 года успешной работы мы продемонстрировали кейсы и "
+"реализовали более 50 проектов в сфере маркетинга, брендинга и производства и "
+"на данный момент работаем с более чем 20 крупными локальными и зарубежными "
+"брендами в сфере онлайн маркетинг. Креативность – это нашанаша превосходящая "
+"сторона Впечатленный? И это только начало!"
+msgstr ""
+"Mars Marketing - natijaga yo'naltirilgan ijodiy marketing agentligi. 1 "
+"yillik muvaffaqiyatli ishimiz davomida marketing, brending va ishlab "
+"chiqarish sohasida 50 dan ortiq loyihalarni ko'rsatib, amalga oshirdik va "
+"ayni paytda onlayn marketing sohasida 20 dan ortiq yirik mahalliy va xorijiy "
+"brendlar bilan hamkorlik qilmoqdamiz. Ijodkorlik bizning ustun tomonimizdir. "
+"Va bu faqat boshlanishi!"
+
+#: .\templates\core\about.html:75
+msgid "Наша работа"
+msgstr "Bizning ishimiz"
+
+#: .\templates\core\about.html:77
+msgid ""
+"Наша работа – это выверенная стратегия, основанная на детальном анализе, "
+"творческом подходе, использовании самых эффективных инструментов продвижения "
+"и регулярной аналитике"
+msgstr ""
+"Bizning ishimiz batafsil tahlil, ijodiy yondashuv, eng samarali reklama "
+"vositalaridan foydalanish va muntazam tahlillarga asoslangan tasdiqlangan "
+"strategiyadir."
+
+#: .\templates\core\about.html:91
+msgid "Опыт"
+msgstr "Tajriba"
+
+#: .\templates\core\about.html:95
+msgid "Имеем большой опыт и проверенные кейсы"
+msgstr "Bizda katta tajriba va tasdiqlangan holatlar mavjud"
+
+#: .\templates\core\about.html:102
+msgid "Проффесионалы"
+msgstr "Professionallar"
+
+#: .\templates\core\about.html:106
+msgid "Профессиональная команда специалистов"
+msgstr "Professional mutaxassislar jamoasi"
+
+#: .\templates\core\about.html:114
+msgid "Креативность"
+msgstr "Ijodkorlik"
+
+#: .\templates\core\about.html:118
+msgid "Нестандартный подход и креативное мышление"
+msgstr "Nostandart yondashuv va ijodiy fikrlash"
+
+#: .\templates\core\about.html:126
+msgid "Высокие результаты"
+msgstr "Yuqori ko'rsatkichlar"
+
+#: .\templates\core\about.html:131
+msgid "Прозрачная отчетность и работа только на высокий результат"
+msgstr "Shaffof hisobot va faqat yuqori natijalar uchun ishlash"
+
+#: .\templates\core\about.html:148
+msgid "Что мы делаем"
+msgstr "Biz nima qilamiz"
+
+#: .\templates\core\about.html:157
+msgid ""
+"Разработка нейминга, логотипа, гайдлайна и брендбука для формирования "
+"«имиджа» вашей компании на рынке"
+msgstr ""
+"Bozorda kompaniyangizning imidjini shakllantirish uchun nomlash, logotip, "
+"yo'riqnoma va brend kitobini ishlab chiqish"
+
+#: .\templates\core\about.html:167
+msgid ""
+"Эффективное продвижение компаний посредством социальных сетей. Работаем как "
+"на узнаваемость брендов"
+msgstr ""
+"Ijtimoiy tarmoqlar orqali kompaniyalarni samarali reklama qilish. Biz brend "
+"mashxurligi uchun ishlaymiz"
+
+#: .\templates\core\about.html:177
+msgid ""
+"Для вашей компании, Mars Marketing предлагает вам SEO-оптимизация, Google "
+"ads, Yandex Metrika и многое другое"
+msgstr ""
+"Sizning kompaniyangiz uchun Mars Marketing sizga SEO optimallashtirish, "
+"Google reklamalari, Yandex Metrika va boshqalarni taklif qiladi"
+
+#: .\templates\core\about.html:193 .\templates\core\index.html:117
+msgid "Годы Опыта"
+msgstr "Yillik Tajriba"
+
+#: .\templates\core\about.html:201 .\templates\core\index.html:125
+msgid "Клиенты"
+msgstr "Mijozlar"
+
+#: .\templates\core\about.html:209 .\templates\core\index.html:133
+msgid "Проекты"
+msgstr "Loyihalar"
+
+#: .\templates\core\about.html:217 .\templates\core\index.html:141
+msgid "Команда"
+msgstr "Jamoa"
+
+#: .\templates\core\contact.html:28
+msgid "Контакт - Mars Marketing"
+msgstr "Contact - Mars Marketing"
+
+#: .\templates\core\contact.html:39
+msgid "Свяжитесь с нами"
+msgstr "Biz bilan bog'laning"
+
+#: .\templates\core\contact.html:41
+msgid ""
+"Звоните и мы ответим на все ваши вопросы. мы с нетерпением ждем возможности "
+"позвонить вам"
+msgstr ""
+"Bizga qo'ng'iroq qiling va biz barcha savollaringizga javob beramiz. biz "
+"sizni qo'ng'iroq qilishni intiqlik bilan kutamiz"
+
+#: .\templates\core\contact.html:44
+msgid "Позвоните"
+msgstr "Qo'ng'iroq qiling"
+
+#: .\templates\core\contact.html:59 .\templates\parts\nav.html:79
+msgid "Контакт"
+msgstr "Contact"
+
+#: .\templates\core\contact.html:65
+msgid "Кто мы"
+msgstr "Biz kimmiz"
+
+#: .\templates\core\contact.html:68
+msgid ""
+"Мы команда специалистов с практическим опытом в сфере маркетинга Продвижаем "
+"smm с лучшим качеством, использум лучшие канали для продвижениеб Сделаем "
+"logo для вашего компании и др."
+msgstr ""
+"Biz marketing sohasida amaliy tajribaga ega mutaxassislar jamoasimiz Biz "
+"smmni eng yaxshi sifat bilan targ'ib qilamiz, reklama uchun eng yaxshi "
+"kanallardan foydalanamiz, kompaniyangiz uchun logotip tayyorlaymiz va hokazo."
+
+#: .\templates\core\contact.html:74
+msgid "Рабочее время"
+msgstr "Ish vaqti"
+
+#: .\templates\core\contact.html:82
+msgid "Адрес"
+msgstr "Manzil"
+
+#: .\templates\core\contact.html:90
+msgid "Эл.Почта"
+msgstr "Email"
+
+#: .\templates\core\contact.html:99 .\templates\parts\footer.html:24
+msgid "Телефон Номер"
+msgstr "Telefon raqami"
+
+#: .\templates\core\contact.html:110
+msgid "Оставьте комментарий"
+msgstr "Izoh qoldiring"
+
+#: .\templates\core\contact.html:139 .\templates\parts\contact-form.html:24
+msgid "Send"
+msgstr "Yuborish"
+
+#: .\templates\core\index.html:19
+msgid "Эффективное Маркетинговое Агентство в Узбекистане"
+msgstr "Samarali marketing agentligi"
+
+#: .\templates\core\index.html:37
+msgid "Более 100 брендов в портфолио за 2 года работы"
+msgstr "2 yillik ish davomida portfolioda 100 dan ortiq brendlar"
+
+#: .\templates\core\index.html:41
+msgid "Эффективное Маркетинг Агентство"
+msgstr "Samarali marketing agentligi"
+
+#: .\templates\core\index.html:110
+msgid "Показатели"
+msgstr "Ko'rsatkichlar"
+
+#: .\templates\core\index.html:152
+msgid "Наши Услуги"
+msgstr "Bizning Xizmatlar"
+
+#: .\templates\core\index.html:164
+msgid ""
+"Разработка нейминга, логотипа, гайдлайна и брендбука для  вашей компании в "
+"своем сегменте."
+msgstr ""
+"O'z segmentida kompaniyangizning  shakllantirish uchun nomlash, logotip, "
+"yo'riqnoma va brend kitobini ishlab chiqamiz."
+
+#: .\templates\core\index.html:166 .\templates\core\index.html:178
+#: .\templates\core\index.html:190 .\templates\core\index.html:202
+msgid "Больше"
+msgstr "Ko'proq"
+
+#: .\templates\core\index.html:176
+msgid ""
+"Эффективное продвижение компаний  социальных сетей. Работаем как на "
+"узнаваемость брендов."
+msgstr ""
+"Ijtimoiy tarmoqlar orqali kompaniyalarni samarali reklama qilish. Biz brend "
+"mashxurligi uchun ishlaymiz"
+
+#: .\templates\core\index.html:188
+msgid ""
+"Cоздание качественного  веб-сайта для вашего бизнеса. Мы предлагаем вам "
+"современый дизайн"
+msgstr ""
+"Biznesingiz uchun sifatli veb-sayt yaratish. Biz sizga taklif qilamiz "
+"zamonaviy dizayn"
+
+#: .\templates\core\index.html:200
+msgid ""
+"Для вашей компании, Mars Marketing предлагает  вам  SEO-оптимизация, Google "
+"ads  и многое другое"
+msgstr ""
+"Sizning kompaniyangiz uchun Mars Marketing sizga SEO optimallashtirish, "
+"Google reklamalari va boshqalarni taklif qiladi"
+
+#: .\templates\core\index.html:218 .\templates\core\portfolio.html:34
+#: .\templates\parts\nav.html:75
+msgid "Портфолио"
+msgstr "Portfolio"
+
+#: .\templates\core\index.html:241
+msgid "другие проекты"
+msgstr "boshqa loyihalar"
+
+#: .\templates\core\index.html:252
+msgid "Вы пробуете много вещей"
+msgstr "Siz ko'p narsalarni sinab ko'rmoqdasiz"
+
+#: .\templates\core\index.html:253
+msgid "но не получаете результаты"
+msgstr "lekin natija bermayapti"
+
+#: .\templates\core\index.html:256
+msgid "Мы помогаем вас"
+msgstr "Biz sizga yordam beramiz"
+
+#: .\templates\core\index.html:270
+msgid "Снова ребрендинг вашего продукта"
+msgstr "Mahsulotingizni qayta brendlash"
+
+#: .\templates\core\index.html:283
+msgid "Найм дизайнера для редизайна вашего продукта"
+msgstr "Mahsulotingizni qayta loyihalash uchun dizaynerni yollash"
+
+#: .\templates\core\index.html:295
+msgid "Продвижение вашего продукта"
+msgstr "Mahsulotingizni rivojlantirish"
+
+#: .\templates\core\index.html:310
+msgid "Надежное продвижение бренда"
+msgstr "Ishonchli brendni rivojlantirish"
+
+#: .\templates\core\portfolio.html:36
+msgid "Портфолио маркетинговой команды Mars  которые собрание в течении года"
+msgstr "Yil davomida yig'ilgan Mars marketing jamoasi portfoliosi"
+
+#: .\templates\core\portfolio.html:50
+msgid "Вот что мы делаем"
+msgstr "Biz nimalar bilan shug'alanmiz"
+
+#: .\templates\core\portfolio.html:53
+msgid "Сортировать по"
+msgstr "Filter"
+
+#: .\templates\parts\contact-form.html:6
+msgid "Готовы ли начать? Мы с нетерпением ждем приветствовать вас!"
+msgstr "Boshlashga tayyormisiz? Sizni kutib olishdan xursandmiz!"
+
+#: .\templates\parts\footer.html:38
+msgid "Эл.адрес"
+msgstr "Email"
+
+#: .\templates\parts\footer.html:52
+msgid "Следите нас"
+msgstr "Follow Us"
+
+#: .\templates\parts\hope.html:12
+msgid "Мы трансформируем абстрактные идеи в конкретные дизайнерские решения"
+msgstr "Biz mavhum g'oyalarni aniq dizayn echimlariga aylantiramiz"
+
+#: .\templates\parts\hope.html:15
+msgid ""
+"Мы решаем сложные формулировки проблем и превращаем их в целостный опыт."
+msgstr ""
+"Biz murakkab muammo formulalarini hal qilamiz va ularni yaxlit tajribaga "
+"aylantiramiz."
+
+#: .\templates\parts\nav.html:49 .\templates\parts\nav.html:53
+msgid "Услуги"
+msgstr "Xizmatlar"
+
+#: .\templates\parts\nav.html:57 .\templates\parts\nav.html:65
+#: .\templates\service\smm.html:32
+msgid "Smm продвижение"
+msgstr "Smm reklamasi"
+
+#: .\templates\parts\nav.html:58 .\templates\parts\nav.html:66
+#, fuzzy
+#| msgid "Наша работа"
+msgid "Разработка сайтa"
+msgstr "Bizning ishimiz"
+
+#: .\templates\parts\nav.html:60 .\templates\parts\nav.html:68
+msgid "Extra Услуги"
+msgstr "Extra xizmatlar"
+
+#: .\templates\parts\sponsors.html:5
+msgid "Мы уже сделали это для них"
+msgstr "Bizning ishonchli xamkorlarimiz"
+
+#: .\templates\service\brand.html:25
+msgid "Разработка и продвижение бренда в Ташкенте"
+msgstr "Brendni rivojlantirish va ilgari surish"
+
+#: .\templates\service\brand.html:38
+msgid ""
+"Вне зависимости от специализации и масштаба, каждая компания должна быть "
+"узнаваемой и запоминающейся для потребителя, поэтому профессиональный "
+"брендинг в Узбекистане – незаменимая услуга для формирования стиля компании"
+msgstr ""
+"Mutaxassisligi va ko'lamidan qat'i nazar, har bir kompaniya iste'molchi "
+"uchun tan olinadigan va esda qolarli bo'lishi kerak, shuning uchun "
+"O'zbekistonda professional brending kompaniya uslubini shakllantirish uchun "
+"ajralmas xizmatdir."
+
+#: .\templates\service\brand.html:50
+msgid "Branding для вашего компании"
+msgstr "Sizning kompaniyangiz uchun brending"
+
+#: .\templates\service\brand.html:59
+msgid ""
+"Нейминг — ключевой фактор на этапе основания любой компании, ведь правильно "
+"подобранное имя бренда поможет повысить узнаваемость  потребителей к продукту"
+msgstr ""
+"Nomlash har qanday kompaniyani tashkil etish bosqichida asosiy omil "
+"hisoblanadi, chunki to'g'ri tanlangan brend nomi iste'molchilarning mahsulot "
+"haqida xabardorligini oshirishga yordam beradi."
+
+#: .\templates\service\brand.html:68
+msgid ""
+"Логотип – это лицо вашего бренда, поэтому к его разработке нужно подходить "
+"со всей осознанностью и ответственностью, доверив это дело профессионалам"
+msgstr ""
+"Logotip sizning brendingizning yuzidir, shuning uchun siz ushbu ishni "
+"professionallarga ishonib, uning rivojlanishiga barcha onglilik va "
+"mas'uliyat bilan yondashishingiz kerak."
+
+#: .\templates\service\brand.html:77
+msgid ""
+"Набор корпоративных стандартов, в котором указывается позиционирование "
+"бренда, ключевые ценности компании, целевая аудитория"
+msgstr ""
+"Brendning joylashishini, kompaniyaning asosiy qadriyatlarini, maqsadli "
+"auditoriyani belgilaydigan korporativ standartlar to'plami"
+
+#: .\templates\service\brand.html:97
+msgid "Почему вы должны выбрать нас?"
+msgstr "Nega bizni tanlashingiz kerak?"
+
+#: .\templates\service\brand.html:111
+msgid "Компетентные специалисты"
+msgstr "Vakolatli mutaxassislar"
+
+#: .\templates\service\brand.html:124
+msgid "Качественный дизайн"
+msgstr "Sifatli dizayn"
+
+#: .\templates\service\brand.html:136
+msgid "Креативный подход"
+msgstr "Ijodiy yondashuv"
+
+#: .\templates\service\extra.html:20
+msgid "Extra услуги"
+msgstr "Extra xizmatlar"
+
+#: .\templates\service\extra.html:22
+msgid ""
+"Продвижение вашего компании и мы предлагаем вам google ads, yandex metrika "
+"seo оптимизация и др."
+msgstr ""
+"Sizning kompaniyangizni targ'ib qilish va biz sizga Google reklamalari, "
+"yandex metrica seo optimallashtirish va boshqalarni taklif qilamiz."
+
+#: .\templates\service\extra.html:45
+msgid ""
+"SEO-оптимизация – поисковое продвижение, направленное на развитие вашего web-"
+"сайта, с целью улучшения позиций по целевым запросам в поисковиках (Google, "
+"Яндекс, Mail.ru и др.)"
+msgstr ""
+"SEO-optimallashtirish - bu qidiruv tizimlarida (Google, Yandex, Mail.ru va "
+"boshqalar) maqsadli so'rovlar o'rnini yaxshilash uchun veb-saytingizni "
+"rivojlantirishga qaratilgan qidiruv reklamasi."
+
+#: .\templates\service\extra.html:54
+msgid ""
+"Этот способ продвижения бренда на рынке позволяет размещать баннерную "
+"рекламу на всех доступных интернет-платформах, будь то сайт, либо мобильное "
+"приложение с нужной ЦА."
+msgstr ""
+"Bozorda brendni ilgari surishning ushbu usuli istalgan maqsadli auditoriyaga "
+"ega veb-sayt yoki mobil ilova bo'ladimi, barcha mavjud internet "
+"platformalarida banner reklamalarini joylashtirish imkonini beradi."
+
+#: .\templates\service\extra.html:63
+msgid ""
+"Оптимальный вариант для размещения рекламного видеоролика, который будет "
+"показан всем пользователям YouTube, подходящим под необходимую аудиторию"
+msgstr ""
+"Kerakli auditoriyaga mos keladigan barcha YouTube foydalanuvchilariga "
+"ko'rsatiladigan reklama videosini joylashtirishning eng yaxshi varianti"
+
+#: .\templates\service\smm.html:21 .\templates\service\web.html:21
+msgid "Качественный продвижение smm в Ташкенте"
+msgstr "Toshkentda yuqori sifatli smm reklamasi"
+
+#: .\templates\service\smm.html:34
+msgid ""
+"Этот инструмент цифрового маркетинга позволяет напрямую контактировать с "
+"потребителем, регулировать репутацию бренда, повышать лояльность к бренду за "
+"короткий промежуток времени"
+msgstr ""
+"Ushbu raqamli marketing vositasi qisqa vaqt ichida iste'molchi bilan "
+"bevosita bog'lanish, brend obro'sini tartibga solish, brendga sodiqlikni "
+"oshirish imkonini beradi."
+
+#: .\templates\service\smm.html:57
+msgid ""
+"Мы формируем контент-план на основе запросов клиента и реальных потребностей "
+"бизнеса, чтобы создать максимально эффективный контент для социальных сетей"
+msgstr ""
+"Ijtimoiy tarmoqlar uchun eng samarali kontentni yaratish maqsadida mijozlar "
+"talablari va real biznes ehtiyojlari asosida kontent rejasini tuzamiz."
+
+#: .\templates\service\smm.html:66
+msgid ""
+"Для достижения поставленных результатов мы проводим ежемесячную аналитику и "
+"предоставляем подробный отчет. Для нас важно, чтобы услуги SMM в Узбекистане "
+"оказывались профессионально"
+msgstr ""
+"Belgilangan natijalarga erishish uchun biz har oyda tahlillarni o'tkazamiz "
+"va batafsil hisobot taqdim etamiz. Uzbekistonda SMM xizmatlari professional "
+"tarzda taqdim etilishi biz uchun muhim."
+
+#: .\templates\service\smm.html:75
+msgid ""
+"Гарантируем грамотную настройку таргетированной рекламы с учетом целевой "
+"аудитории компании, что позволяет добиться максимального результата"
+msgstr ""
+"Biz kompaniyaning maqsadli auditoriyasini hisobga olgan holda maqsadli "
+"reklamani malakali sozlashni kafolatlaymiz, bu sizga maksimal natijalarga "
+"erishish imkonini beradi."
+
+#: .\templates\service\smm.html:93 .\templates\service\web.html:93
+msgid "Почему вы должны выбрать нас"
+msgstr "Nima uchun bizni tanlashingiz kerak"
+
+#: .\templates\service\smm.html:107
+msgid "Быстрое smm-продвижение"
+msgstr "Tez SMM reklamasi"
+
+#: .\templates\service\smm.html:120
+msgid "Безопасное и креативное продвижение"
+msgstr "Xavfsiz va ijodiy targ'ibot"
+
+#: .\templates\service\smm.html:132
+msgid "Эффективное smm продвижение и каналы"
+msgstr "Samarali smm reklama va kanallar"
+
+#: .\templates\service\web.html:32
+msgid "Разработка сайтов"
+msgstr "Veb-sayt yasash"
+
+#: .\templates\service\web.html:34
+msgid ""
+"Разработка высокого качественней веб-сайт с административной странницей, мы "
+"сделаем вас лендинг, корпаративной сайт, интернет магазин"
+msgstr ""
+"Ma'muriy sahifaga ega yuqori sifatli veb-saytni ishlab chiqish, bizBiz sizga "
+"ochilish sahifasi, korporativ veb-sayt, onlayn do'kon qilamiz"
+
+#: .\templates\service\web.html:57
+msgid ""
+"Удобная платформа для онлайн-продажи товаров/услуг вашей компании. Веб-сайт "
+"интегрируется с платежными системами, имеет широкий каталог и удобную "
+"навигацию."
+msgstr ""
+"Kompaniyangiz tovarlari/xizmatlarini onlayn sotish uchun qulay platforma. "
+"Veb-sayt To'lov tizimlari bilan integratsiyalashgan, keng katalogga ega va "
+"qulaynavigatsiya."
+
+#: .\templates\service\web.html:66
+msgid ""
+"Отличный вариант для компаний, кому веб-сайт нужен в качестве «визитки», "
+"поскольку в таком формате сайта отражена только ключевая информация о "
+"деятельности компании."
+msgstr ""
+"Veb-saytga vizit kartasi sifatida muhtoj bo'lgan kompaniyalar uchun ajoyib "
+"imkoniyat, chunki bu sayt formati faqat haqidagi asosiy ma'lumotlarni aks "
+"ettiradikompaniya faoliyati."
+
+#: .\templates\service\web.html:75
+msgid ""
+"Сайт, где представлена ключевая информация, свежие новости и актуальные "
+"предложения вашей компании."
+msgstr ""
+"Asosiy ma'lumotlar, tezkor yangiliklar va dolzarb mavzularni taqdim etadigan "
+"saytkompaniyangiz takliflari."
+
+#: .\templates\service\web.html:107
+msgid "Современный веб-сайт"
+msgstr "Zamonaviy veb-sayt"
+
+#: .\templates\service\web.html:120
+msgid "Безопасное и Качественный код"
+msgstr "Xavfsiz va sifatli kodi"
+
+#: .\templates\service\web.html:132
+msgid "Функциональность и адаптивность"
+msgstr "Funktsionallik va moslashuvchanlik"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""

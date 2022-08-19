@@ -1,0 +1,81 @@
+{% load static i18n %}
+<footer class="footer">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <article class="footer-article">
+                    <div class="logo">
+                        <img src="{% static 'images/logo.png' %}" alt="">
+                    </div>
+                    <div class="footer-address">
+                        <img src="{% static 'images/icons/location.svg' %}" alt="">
+                        <div class="footer-addres-text">
+                            <p>
+                                {{ contact.address }}
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <article class="footer-article">
+                    <div class="footer-title">
+                        <h4>{% trans 'Телефон Номер' %}</h4>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li>
+                                {{ contact.phone_number }}
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <article class="footer-article">
+                    <div class="footer-title">
+                        <h4>{% trans 'Эл.адрес' %}</h4>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li>
+                                {{ contact.email_address }}
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <article class="footer-article">
+                    <div class="footer-title">
+                        <h4>{% trans 'Следите нас' %}</h4>
+                    </div>
+                    <div class="footer-text">
+                        <ul class="social">
+                            
+                            <li>
+                                <a href="">
+                                    <img src="{% static 'images/icons/social/telegram.svg' %}" width="25" alt="">
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a href="">
+                                    <img src="{% static 'images/icons/social/facebook.svg' %}" width="25" alt="">
+                                </a>
+                                
+                            </li>
+                            <li class="ms-3">
+                                <a href="">
+                                    <img src="{% static 'images/icons/social/Instagram.svg' %}" width="19" alt="">
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div> <!-- Row end //-->
+
+    </div>
+</footer>

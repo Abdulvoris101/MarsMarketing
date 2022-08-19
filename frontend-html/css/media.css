@@ -1,0 +1,611 @@
+@media (max-width: 300px ) and (min-width: 100px ) {
+    /* .intro-text {
+        transform: translateY(-40%);
+    } */
+}
+@media (max-width: 375px) {
+    .intro-text p {
+        color: #f1f1f1;
+        text-align: center;
+    }
+    
+     /* Intro */
+     .intro-title {
+        display: block;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .intro-smm-title {
+        font-size: 35px !important;
+    }
+    .intro-subtitle {
+        font-size: 16px !important;
+    }
+    /* Mars */
+
+    .planet.planet-mars .container .mars {
+        margin-top: 20px !important;
+    }
+    .planet .loader {
+        margin-top: 20px !important;
+
+    }
+
+    /* Hope */
+
+    .hope-text {
+        text-align: center;
+    }
+
+    
+}
+@media (max-width:480px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    
+    /* Logo */
+    .mobile-logo {
+        display: block;
+    }
+    .mobile-logo img{
+        width: 95px;
+        margin-left: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    
+    /* Navbar */
+    .nav-inner {
+        display: block;
+    }
+    .extra-nav {
+        position: relative;
+        text-align: center;
+    }
+    .p-extra-nav {
+        display: block;
+    }
+
+    .nav-items {
+        background-color: rgb(0, 0, 0);
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding-top: 30%;
+        transition: all .2s linear;
+        display: block;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        padding-left: 20px !important;
+        padding-top: 3px;
+    }
+    .nav-item-search span{
+        border-radius: 50%;
+        padding: 15px;
+        margin-left: 0;
+        background-color: rgb(24 24 24);
+    }
+    .nav-li-search {
+        position: absolute;
+        bottom: 120px;
+        left: 28px;
+    }
+    .nav-item a{
+        color: #fff !important;
+        font-size: 25px;
+    }
+
+    /* Dropdown */
+    .nav-dropdown-menu {
+        display: none !important;
+        padding-left: 0 !important;
+        margin-left: 0;
+    }
+    #dropdownMenu2 {
+        display: none;
+    }
+    .mobile-dropdown-menu a {
+        font-size: 19px;
+        color: #eee !important;
+        font-weight: normal;
+    }
+    .mobile-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .nav-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .mobile-dropdown-menu li {
+        padding-left: 0;
+    }
+
+    #dropdownMenuLink2 {
+        display: block;
+    }
+    #dropdownMenuLink1 {
+        display: none;
+    }
+    /* Mobile Nav */
+
+    .nav-mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        position: absolute;
+        z-index: 1100;
+        margin-right: 20px;
+    }
+
+    /* Intro */
+    .intro-title {
+        display: block;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .intro-smm-title {
+        font-size: 35px !important;
+    }
+
+    .intro-subtitle {
+        font-size: 16px !important;
+    }
+    
+    .intro-text p {
+        color: #f1f1f1;
+        text-align: center;
+    }
+    
+
+    /* Intro COntact */
+    .intro-contact .btn-cnc {
+        text-align: center;
+    }
+    /* .mobile-intro {
+        display: block !important;
+    }
+    .intro-row {
+        display: none !important;
+    } */
+    /* Mars */
+
+    .planet {
+        display: block;
+	    min-height: 30vh;
+    }
+
+    .planet.planet-mars .container .mars {
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .planet .loader {
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+
+    }
+
+    /* Burger Menu =======================
+    ===================================
+     */
+
+    .menu-icon {
+        transform: scale(1.5);
+    }
+    
+    :root {
+    --bar-bg: #ffffff;
+    }
+    
+    .menu-icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu-icon .menu-icon__cheeckbox {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        -webkit-touch-callout: none;
+        position: absolute;
+        opacity: 0;
+    }
+    .menu-icon div {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 22px;
+        height: 12px;
+    }
+    .menu-icon span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bar-bg, rgb(255, 255, 255));
+        border-radius: 1px;
+    transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+    }
+    .menu-icon span:first-of-type {
+        top: 0;
+    }
+    .menu-icon span:last-of-type {
+        bottom: 0;
+    }
+    .menu-icon.active span:first-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:first-of-type {
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    .menu-icon.active span:last-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:last-of-type {
+        transform: rotate(-45deg);
+        bottom: 5px;
+    }
+    .menu-icon.active:hover span:first-of-type, .menu-icon.active:hover span:last-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:first-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:last-of-type {
+        width: 22px;
+    }
+
+
+    /* Sponsor */
+
+    .sponsor-main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Services */
+    .service-card {
+        padding-left: 15px;
+    }
+    .service-txt-center {
+        text-align: left;
+    }
+    .service-txt-right {
+        text-align: left;
+    }
+
+    /* FOrm Contact */
+    .form-contact {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parent-btn-contact {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding-left: 20px;
+    }
+
+    /* Hope */
+
+    .hope-text {
+        
+        text-align: center;
+    }
+
+    .btn-cnc  {
+        text-align: center;
+    }
+
+    .about-us-title {
+        padding-top: 20px !important;
+        padding-bottom: 10px;
+    }
+    .about-us-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-subtitle {
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-btn {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .search-dv {
+        justify-content: center;
+        width: 85% !important;
+    }
+    .close-btn {
+        top: 40px !important;
+        right: 25px !important;
+    }
+    .close-btn span {
+        font-size: 28px !important;
+        color: #eee;
+    }
+
+}
+@media (max-width:960px) and (min-width: 480px){
+    .mobile-logo {
+        display: block;
+        margin-top: 20px;
+    }
+    .mobile-logo img{
+        width: 155px;
+        margin-left: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    
+    /* Navbar */
+    .nav-inner {
+        display: block;
+    }
+    .extra-nav {
+        position: relative;
+        text-align: center;
+    }
+    .p-extra-nav {
+        display: block;
+    }
+
+    .nav-items {
+        background-color: rgb(0, 0, 0);
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding-top: 30%;
+        transition: all .2s linear;
+        display: block;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        padding-left: 20px !important;
+        padding-top: 3px;
+    }
+    .nav-item-search span{
+        border-radius: 50%;
+        padding: 15px;
+        margin-left: 0;
+        background-color: rgb(24 24 24);
+    }
+    .nav-li-search {
+        position: absolute;
+        bottom: 120px;
+        left: 28px;
+    }
+    .nav-item a{
+        
+        color: #fff !important;
+        font-size: 35px;
+    }
+    /* Mobile Nav */
+
+    .nav-mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        position: absolute;
+        z-index: 1100;
+        margin-right: 20px;
+    }
+
+    /* Dropdown */
+    .nav-dropdown-menu {
+        display: none !important;
+        padding-left: 0 !important;
+        margin-left: 0;
+    }
+    #dropdownMenu2 {
+        display: none;
+    }
+    .mobile-dropdown-menu a {
+        font-size: 19px;
+        color: #eee !important;
+        font-weight: normal;
+    }
+    .mobile-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .nav-dropdown-menu a:hover {
+        color: #f34040 !important;
+    }
+    .mobile-dropdown-menu li {
+        padding-left: 0;
+    }
+    /* Intro */
+    .intro-title {
+        padding-bottom: 45px;
+        display: block;
+        text-align: center;
+        font-size: 60px;
+        width: 100%;
+    }
+    .intro-contact-title {
+        padding-bottom: 0 !important;
+    }
+    .intro-text {
+        transform: translateY(-30%);
+    }
+    .intro-subtitle {
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-text p {
+        color: #f1f1f1;
+        text-align: center;
+    }
+
+    
+        
+
+    /* .mobile-intro {
+        display: block !important;
+    }
+    .intro-row {
+        display: none !important;
+    } */
+
+    /* Mars */
+
+    .planet {
+        display: block;
+	    min-height: 30vh;
+    }
+
+    .planet.planet-mars .container .mars {
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .planet .loader {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+
+    }
+
+    /* Burger Menu =======================
+    ===================================
+     */
+
+    .menu-icon {
+        transform: scale(1.5);
+    }
+    
+    :root {
+    --bar-bg: #ffffff;
+    }
+    
+    .menu-icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu-icon .menu-icon__cheeckbox {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        -webkit-touch-callout: none;
+        position: absolute;
+        opacity: 0;
+    }
+    .menu-icon div {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 22px;
+        height: 12px;
+    }
+    .menu-icon span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bar-bg, rgb(255, 255, 255));
+        border-radius: 1px;
+    transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+    }
+    .menu-icon span:first-of-type {
+        top: 0;
+    }
+    .menu-icon span:last-of-type {
+        bottom: 0;
+    }
+    .menu-icon.active span:first-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:first-of-type {
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    .menu-icon.active span:last-of-type,
+    .menu-icon .menu-icon__cheeckbox:checked + div span:last-of-type {
+        transform: rotate(-45deg);
+        bottom: 5px;
+    }
+    .menu-icon.active:hover span:first-of-type, .menu-icon.active:hover span:last-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:first-of-type, .menu-icon:hover .menu-icon__cheeckbox:checked + div span:last-of-type {
+        width: 22px;
+    }
+
+
+    /* Sponsor */
+
+    .sponsor-main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Services */
+    .service-card {
+        padding-left: 15px;
+    }
+    .service-txt-center {
+        text-align: left;
+    }
+    .service-txt-right {
+        text-align: left;
+    }
+    .footer {
+        padding-left: 20%;
+    }
+    .btn-cnc  {
+        text-align: center;
+    }
+    .hope-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-about-title {
+        max-width: 100%;
+        width: 100%;
+    }
+    .intro-text {
+        transform: translateY(0%) !important;
+    }
+    .about-us-title {
+        padding-top: 20px;
+    }
+}

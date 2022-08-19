@@ -1,0 +1,50 @@
+.contact_us {
+    background: #0c0c0c;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact_us-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Gilroy';
+}
+
+.contact_us-service h5 {
+    color: #ebb9ff;
+    font-family: 'Gilroy-Medium';
+
+}
+
+.contact_us-service p {
+    width: 200px;
+    font-family: 'Gilroy-Light';
+    font-size: 15px !important;
+}
+.contact_us-text-title {
+    font-size: 22px;
+    font-family: 'Gilroy';
+}
+
+.contact_us-text-content {
+    font-family: 'Gilroy-Light';
+}
+
+.p-form-contact > h3 {
+    font-size: 22px;
+    font-family: 'Gilroy';
+}
+
+.form-contact {
+    width: 100%;
+}
+
+.form-textarea {
+    resize: none;
+}
+
+.contact-cn {
+    resize: none !important;
+    display: block !important;
+}

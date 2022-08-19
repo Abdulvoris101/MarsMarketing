@@ -1,0 +1,149 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block meta %}
+    <meta name="description" content="Портфолио команды Mars Marketing">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta property="og:title" content="Портфолио команды Mars">
+    <meta property="og:description" content="Портфолио - Проекты Марс Маркетинга"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+{% endblock meta %}
+
+{% block title %}
+  Portfolio - Mars Marketing
+{% endblock title %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock style %}
+
+{% block content %}
+
+
+
+<section class="intro intro-portfolio intro-services">
+    
+    <div class="intro-inner">
+        <div class="container">
+            
+            <div class="intro-text">
+                <h1 class="intro-title intro-services-title">{% trans 'Портфолио' %}</h1>
+                <p class="intro-subtitle intro-portfolio-subtitle">
+                    {% trans 'Портфолио маркетинговой команды Mars  которые собрание в течении года' %}
+                </p>
+            </div>
+                
+
+
+        </div>
+    </div> <!-- intro - inner end// -->
+    
+</section>
+
+<section class="p-project" id="app">
+    <div class="container">
+        <h3 class="p-project-title">
+            {% trans 'Вот что мы делаем' %}
+        </h3>
+        <h5 class="p-project-subtitle">
+            {% trans 'Сортировать по' %}:
+        </h5>
+        <div class="p-project-filter">
+            <button @click="getProjects('all', '1')" ref="btnfilter1" class="btn btnfilter btn-outline-light">All</button>
+            <button @click="getProjects('branding', '2')" ref="btnfilter2" class="btn btnfilter btn-outline-light">Branding</button>
+            <button @click="getProjects('logo', '3')" ref="btnfilter3" class="btn btnfilter btn-outline-light">Logo</button>
+            <button @click="getProjects('smm', '4')" ref="btnfilter4" class="btn btnfilter btn-outline-light">Smm</button>
+        </div>
+        <main class="p-project-main" ref="project_main">
+            <div class="row gy-3">
+
+                <article class="col-md-6 " v-for="project in projects" v-if="projects.length >= 1" :key="project.id">
+                    <div class="p-parent-image parent-image ">
+                        <a :href="project.url">
+                            <figure class="portfolio-image child-image" :style="{ backgroundImage : 'url(' + project.image + ')' }" >
+                            </figure>
+                        </a>
+                    </div>
+                </article>
+
+
+            </div>
+        </main>
+    </div>
+</section>
+
+
+
+{% include "parts/sponsors.html" %}
+
+
+
+{% endblock content %}
+
+{% block script %}
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            delimiters: ['[[', ']]'],
+            data() {
+                return {
+                    projects: [],
+                    msg: 'Hi',
+                    project_animated: false,
+                    btn_id: '0',
+                    url: ''
+                }
+            },
+            mounted() {
+                this.getProjects('all', '1')
+            },
+            methods: {
+                getProjects(query_name, id) {
+                    let url = `http://${window.location.host}/api/projects?filter=${query_name}`
+                    
+                    fetch(url)
+                    .then(response => response.json())
+                    .then(data => this.projects = data.response)
+                    .then(this.animateProject(id))
+                    .catch(error => console.log(error))
+                },
+                animateProject(id) {
+                    this.btn_id = id
+                    
+                    let project_m = this.$refs.project_main
+
+                    project_m.classList.value = 'animate__zoomIn animate__animated animate__faster'
+                    
+
+                    setTimeout(() => {
+                        project_m.classList.value = ''
+                    }, 400)
+                }
+            },
+
+            watch: {
+                btn_id(newvalue, old) {
+                    let btn = this.$refs['btnfilter' + newvalue]
+                    btn.classList.value += ' active-btn'
+
+                    console.log(newvalue, old);
+
+                    if (old != '0' & old != newvalue) {
+                        let oldbtn = this.$refs['btnfilter' + old]
+                        oldbtn.classList.value = 'btn btnfilter btn-outline-light'
+                    }
+
+                }
+            }
+
+        }).mount('#app')
+    </script>
+
+{% endblock script %}

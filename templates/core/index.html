@@ -1,0 +1,364 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block meta %}
+    <meta name="description" content="Агентство Mars Marketing - опытная команда в Узбекистане, предлагает вам разработку веб сайт smm продвижение брендинг и другие">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta name="keywords" content="marketing, smm promotion, digital marketing, mars marketing, branding" />
+    <meta property="og:title" content="Эффективное Маркетинговое Агентство в Узбекистане">
+    <meta property="og:description" content="опытная команда в Узбекистане, предлагает вам разработку веб сайт smm продвижение брендинг и другие"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+    
+{% endblock meta %}
+
+{% block title %}
+    {% trans 'Эффективное Маркетинговое Агентство в Узбекистане' %}
+{% endblock title %}
+
+{% block content %}
+
+<!-- Intro Index -->
+
+<section class="intro intro-home">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    
+    <div class="intro-inner  index-intro">
+        <div class="container">
+            <div class="row gy-2 d-flex align-items-center intro-row">
+                <div class="col-lg-7">
+
+                    <div class="intro-index-text pt-3">
+                        <h4 class="intro-patitle">{% trans 'Более 100 брендов в портфолио за 2 года работы' %}
+                        </h4>
+                        <h1 class="intro-title"></h1>
+                        <div id="typed-strings">
+                            <p>{% trans 'Эффективное Маркетинг Агентство' %}</p>
+                        </div>
+                        <h1 class="intro-title" id="typed"></h1>
+                        
+                        <a type="button" onclick="NoneMenu()" data-bs-toggle="modal" data-bs-target="#exampleModal" class="icon-tel-link">
+                            
+                            <div class="icon-contact-index">
+                              <article>
+                                Contact
+                                <span class="material-icons ">
+                                  chevron_right
+                                  </span>
+                              </article>
+                            </div>
+                          </a>
+                    </div>
+                    
+                   
+                </div>
+                <sidebar class="col-lg-5">
+                    
+                <div class="planet planet-mars">
+                    <div class="container">
+                        <div class="loader">
+                            <span></span>
+                        </div>
+                        <div class="mars"></div>
+                    </div>
+                </div>
+                </sidebar>
+            </div> <!-- row end //-->
+
+
+        </div>
+    </div> <!-- intro - inner end// -->
+    
+</section>
+<!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+    
+
+      <div class="modal-content">
+        <div class="modal-body">
+            <h2 class="form-contact-i-title">Contact</h2>
+            <form action="" class="form-modal">
+                <!-- <input type="text" placeholder="Name*" class="form-control form-contact">
+                <input type="number" placeholder="Phone Number*" class="form-control form-contact">
+                <input type="number" placeholder="Company Name*" class="form-control form-contact">
+                <textarea type="number" placeholder="Description*" rows="3"  class="form-control form-contact form-textare-c"></textarea>
+                 -->
+                {{ form.as_p }}
+                <button class="btn btn-dark w-100">Send</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+{% include 'parts/sponsors.html' %}
+
+<section class="stat">
+    <div class="container">
+        <div class="stat-intro-title">
+            {% trans 'Показатели' %}
+        </div>
+        <div class="row gy-3">
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title" > <span data-count="{{ result.experience }}" id="stat1">{{ result.experience }}</span>  <span>+</span></h4>
+                    <p class="stat-desc">
+                        {% trans 'Годы Опыта' %}
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title" ><span data-count="{{ result.clients }}" id="stat2">{{ result.clients }}</span> <span>+</span></h4>
+                    <p class="stat-desc">
+                        {% trans 'Клиенты' %}
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title"><span data-count="{{ result.projects }}" id="stat3" >{{ result.projects }}</span> <span>+</span></h4>
+                    <p class="stat-desc">
+                        {% trans 'Проекты' %} 
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title" ><span data-count="{{ result.team }}" id="stat4">{{ result.team }}</span> <span>+</span></h4>
+                    <p class="stat-desc">
+                        {% trans 'Команда' %}
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service">
+    <div class="container">
+        <div class="service-header">
+            <h2 class="service-title">{% trans 'Наши Услуги' %}</h2>
+        </div>
+        <main class="service-main">
+
+            <div class="row">
+
+                <div class="col-md-3 " data-aos="fade-right" data-aos-delay="100">
+                    <article class="service-card">
+                        <h3 class="title text-uppercase">Branding</h3>
+                        <hr>
+
+                        <p class="content">
+                            {% trans 'Разработка нейминга, логотипа, гайдлайна и брендбука для  вашей компании в своем сегменте.' %}
+                        </p>
+                        <a href="{% url 'brand' %}">{% trans 'Больше' %}</a>
+                    </article>
+                </div>
+
+                <div class="col-md-3">
+                    <article class="service-card service-txt-center"  data-aos="fade-right" data-aos-delay="100">
+                        <h3 class="title text-uppercase">Digital</h3>
+                        <hr>
+
+                        <p class="content">
+                            {% trans 'Эффективное продвижение компаний  социальных сетей. Работаем как на узнаваемость брендов.' %}
+                        </p>
+                        <a href="{% url 'smm' %}">{% trans 'Больше' %}</a>
+                    </article>
+                </div>
+                
+                <div class="col-md-3 service-txt-center">
+                    <article class="service-card">
+                        <h3 class="title text-uppercase">Web</h3>
+                        <hr>
+
+                        <p class="content">
+                            {% trans 'Cоздание качественного  веб-сайта для вашего бизнеса. Мы предлагаем вам современый дизайн' %}
+                        </p>
+                        <a href="{% url 'web' %}">{% trans 'Больше' %}</a>
+                    </article>
+                </div>
+                <div class="col-md-3 service-txt-right" data-aos="fade-left" data-aos-delay="100">
+                    <article class="service-card">
+
+                        <h3 class="title text-uppercase">Extra</h3>
+                        <hr>
+
+                        <p class="content">
+                            {% trans 'Для вашей компании, Mars Marketing предлагает  вам  SEO-оптимизация, Google ads  и многое другое' %}
+                        </p>
+                        <a href="{% url 'extra' %}">{% trans 'Больше' %}</a>
+
+                    </article>
+                </div>
+                
+                
+            </div>
+
+        </main> <!-- service-main end //-->
+    </div>
+</section>
+
+
+
+<section class="portfolio">
+    <div class="portfolio-header">
+        <h5 class="portfolio-title">{% trans 'Портфолио' %}</h5>
+    </div>
+    <main class="portfolio-main  container-fluid">
+        <div class="row g-0">
+            {% for project in projects %}
+                <div class="col-lg-3 col-md-6" >
+                    <a href="{{ project.get_absolute_url }}">
+                        <div class="parent-image">
+                            <figure class="portfolio-image child-image" style="background-image: url('{{ project.image.url }}');">
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="more-projects">
+            <p class="text-center">
+                <a href="{% url 'portfolio' %}" class="more-p-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    {% trans 'другие проекты' %}
+                </a>
+            </p>
+        </div>
+    </main>
+</section>
+
+<section class="offer">
+    <div class="container">
+        <div class="offer-header">
+            <h3 class="offer-title">
+                {% trans 'Вы пробуете много вещей' %},
+                <span class="text-red">{% trans 'но не получаете результаты' %}</span>
+            </h3>
+            <p class="offer-subtitle">
+                {% trans 'Мы помогаем вас' %}
+            </p>
+        </div>
+
+        <div class="offer-main">
+            <div class="row">
+
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/new-brand.svg' %}"  width="70" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Снова ребрендинг вашего продукта' %}.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/hire-design.svg' %}" width="70" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Найм дизайнера для редизайна вашего продукта' %}.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 " data-aos="zoom-in" data-aos-delay="100">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/ads-ico.png' %}" class="ads-icon" width="76" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Продвижение вашего продукта' %}.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="ads">
+    <div class="container">
+        <div class="ads-inner">
+            <h4 class="ads-title">{% trans 'Надежное продвижение бренда' %}!</h4>
+        </div>
+    </div>
+</section>
+
+
+
+
+{% endblock content %}
+
+{% block script %}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://inorganik.github.io/countUp.js/dist/countUp.umd.js"></script>
+
+
+    <script>
+
+        let el1 = document.getElementById('stat1').dataset.count
+        let el2 = document.getElementById('stat2').dataset.count
+        let el3 = document.getElementById('stat3').dataset.count
+        let el4 = document.getElementById('stat4').dataset.count
+        
+
+        const c = new countUp.CountUp("stat1", el1)
+        const c2 = new countUp.CountUp("stat2", el2)
+        const c3 = new countUp.CountUp("stat3", el3)
+        const c4 = new countUp.CountUp("stat4", el4)
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            window.onscroll = function(e) { 
+                if (window.scrollY > 400) {
+                    c.start()
+                    c2.start()
+                    c3.start()
+                    c4.start()
+                }
+                
+            };
+        });
+
+        
+
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            loopCount: Infinity,
+            cursorChar: '|',
+
+        });
+
+        
+       
+
+
+    </script>
+{% endblock script %}

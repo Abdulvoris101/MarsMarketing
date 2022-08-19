@@ -1,0 +1,433 @@
+/* Nav items */
+
+.nav-items a{
+    color: #ddd !important;
+}
+.nav-items a:hover{
+    color: #f34040 !important;
+}
+.nav-dropdown-menu a {
+    color: #5c5c5c !important;
+}
+.nav-dropdown-menu a:hover {
+    color: #f34040 !important;
+}
+
+
+
+.onscrollHeader .nav-items a{
+    color: #5c5c5c !important;
+}
+.onscrollHeader .nav-items a:hover {
+    color: #f34040 !important;
+}
+
+/* Intro SMM */
+
+.intro-smm {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.658);
+    background-image: url('/static/images/smm-bg.webp');
+
+}
+
+.intro-web {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.658);
+    background-image: url('/static/images/code-bg.jpg');
+
+}
+
+.intro-services {
+    margin-bottom: 0;
+    height: 70vh;
+}
+
+.intro-services .intro-inner {
+    height: 70vh;
+}
+.intro-services-title {
+    font-size: 50px;
+}
+
+.intro-branding {
+    padding-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.658);
+    background-image: url('/static/images/bg-branding.jpg');
+    
+}
+
+/* Contact */
+
+.intro-contact {
+    /* padding-top: 40px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.658);
+    background-image: url('/static/images/contactus.jpg');
+}
+
+.intro-about {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.808);
+    background-image: url('/static/images/about-bg.jpg');
+}
+
+.intro-about-title {
+    max-width: 600px;
+    font-family: 'Gilroy';
+    width: 100%;
+}
+
+/* Extra */
+
+.intro-extra {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.808);
+    background-image: url('/static/images/extra.webp');
+}
+/* Service */
+
+.service-smm {
+    margin-top: 0;
+    background-color: #0c0c0c;
+}
+
+/* Hope */
+
+
+.hope-text {
+    width: 500px;
+}
+
+
+/* Projects */
+.project {
+    width: 100%;
+    background: #0c0c0c;
+    color: #fff;
+    padding-top: 30px;
+}
+.project-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Splide */
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}  
+
+.swiper-slide2 img {
+    display: block;
+    width: 1800px !important;
+    height: 950px !important;
+    object-fit:none !important;
+
+}  
+
+/* Offer Smm */
+
+.offer-smm {
+    padding-top: 0;
+    margin-top: 0;
+    background: #0c0c0c;
+}
+
+.offer-title {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.offer-content p {
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.offer-article {
+    padding-top: 30px;
+}
+
+/* Social projects */
+
+.social-projects {
+    background-color: #0c0c0c;
+}
+
+/* About-Us */
+
+.about-us {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-us-title {
+    font-family: 'Gilroy-Medium';
+}
+.about-us-text {
+    font-family: 'Gilroy';
+    color: #f0f0f0;
+}
+
+/* Advantage */
+
+.work {
+    background: #0c0c0c;
+    color: #fff;
+}
+
+.work-title {
+    text-align: center;
+}
+.work-main {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.work-main-title {
+    font-family: 'Gilroy-Medium';
+}
+.work-subtitle {
+    font-family: 'Gilroy-Light';
+    font-size: 16px;
+}
+
+.work-contect {
+    line-height: 1.5;
+    color: #dfdfdf;
+    font-family: 'Gilroy';
+
+}
+.work-article-title {
+    font-family: 'Gilroy';
+    color: #ffbec5;
+    transition: all .2s linear;
+}
+
+.work-article:hover .advantage-article-title{
+    color: #ff6a79;
+    cursor: pointer;
+
+}
+
+.work-article-title:hover {
+    color: #fd8591;
+}
+
+
+/* Advantage */
+
+.advantage-title {
+    font-family: 'Gilroy';
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.advantage-main {
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+}
+
+.advantage-card {
+    margin-top: 30px;
+    color: #fff;
+    padding: 30px 25px;
+    padding-bottom: 40px;
+    border-radius: 2px;
+    transition: all .3s linear;
+    cursor: pointer;
+    background-color: rgb(68, 68, 68);
+}
+
+.advantage-card:hover {
+    background: #333;
+    box-shadow: 0px 2px 12px #9e9e9e;
+
+    color: #fff;
+}
+
+.a-card-title {
+    font-family: 'Gilroy';
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.a-card-desc {
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+    line-height: 1.9;
+    font-weight: 600;
+
+}
+
+
+
+/* STAT */
+
+.stat {
+    background: #0c0c0c;
+    padding: 40px;
+    color: #fff;
+}
+
+.stat-title {
+    font-family: 'Gilroy';
+    font-size: 27px;
+    text-align: center;
+}
+.stat-desc {
+    font-size: 20px;
+    font-family: 'Gilroy-Medium';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* Portfolio */
+
+
+.intro-portfolio {
+    padding-top: 10px;
+    background-image: url('/static/images/portfolio-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 12, 12, 0.808);
+}
+.p-project {
+    padding-top: 10px;
+    /* padding-bottom: 15px; */
+    background: #0c0c0c;
+    padding-bottom: 30px;
+    
+}
+.p-project-title {
+    font-family: 'Gilroy';
+    color: #fff;
+    font-size: 38px;
+    padding-top: 10px;
+    text-align: center;
+}
+.p-project-subtitle {
+    text-align: center;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+    padding-bottom: 8px;
+
+    font-weight: normal;
+}
+.p-project-filter {
+    display: flex;
+    width: 330px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-project-filter button {
+    margin-left: 10px;
+    padding: 6px 16px !important;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.p-project-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.p-parent-image {
+    max-height: 400px;
+    object-position: center;
+    height: 300px;
+    background-position: center;
+}
+
+.p-parent-image img {
+    object-fit: cover;
+    object-position: center !important;
+}
+.parent-image:hover .child-image, .parent-image:focus .child-image {
+    transform: scale(1.2) !important;
+}
+
+@media screen and (max-width: 960px) {  
+    .wrapper {padding: 20px 20px;}
+}
+
+
+/* Product Detail */
+
+.intro-product-title {
+    width: 100%;
+}
+
+.product-detail {
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    background: #0c0c0c;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+}
+

@@ -1,0 +1,119 @@
+{% load static %}
+{% load i18n %}
+{% load replace_str %}
+<header class="header">
+    <div class="header-inner">
+        
+        <div class="container">
+            <nav class="row">
+                <div class="col-lg-9 nav-inner">
+
+                    <div class="logo">
+                        <a href="{% url 'home' %}" 
+                        
+                        >
+                            <img src="{% static 'images/logo.png'%}" id="logo1" width="92" alt="Mars-Logo">    
+                            <img src="{% static 'images/logo-black.png'%}" id="logo2" width="80" class="mb-2" alt="Mars-Logo">    
+                        </a>
+                    </div> <!-- logo end //-->
+
+                    <div class="nav-mobile">
+                        
+                        <div class="mobile-logo">
+                            <a href="{% url 'home' %}">
+                                <img src="{% static 'images/logo.png'%}" width="92" alt="Mars-Logo">    
+                            </a>
+                        </div>
+
+                        <div class="menu-icon">
+                            <input class="menu-icon__cheeckbox" type="checkbox" />
+                            <div>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div> <!-- Nav mobile end //-->
+
+                    <ul class="nav-items">
+                        <li class="nav-item">
+                            <a href="{% url 'about' %}" 
+                            id="{% if request.path == '/about/' %}nav-link-active{% endif %}"
+                            >{% trans 'О нас' %}</a>
+                        </li>
+
+                        <li class="nav-item dropdown nav-dropdown">
+
+                            <a class="dropdown-toggle dropdown-link"  role="button"  data-bs-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false"
+                            id="{% if request.path == '/service/smm/' or  request.path == '/service/brand/' or request.path == '/service/extra_service/'  %}nav-link-active{% endif %}">
+                                {% trans 'Услуги' %}
+                            </a>
+                            
+                            <a class="dropdown-toggle dropdown-link"  role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% trans 'Услуги' %}
+                            </a>
+                            
+                            <ul class="dropdown-menu nav-dropdown-menu"  aria-labelledby="dropdownMenuButton1">
+                                <li><a href="{% url 'smm' %}">{% trans 'Smm продвижение' %}</a></li>
+                                <li><a href="{% url 'web' %}">{% trans 'Разработка сайтa' %}</a></li>
+                                <li><a href="{% url 'brand' %}">Branding</a></li>
+                                <li><a href="{% url 'extra' %}">{% trans 'Extra Услуги' %}</a></li>
+                            </ul>
+
+                            <!-- Mobile -->
+                            <ul class="mobile-dropdown-menu  ps-2" id="dropdownMenu2"> 
+                                <li><a href="{% url 'smm' %}">{% trans 'Smm продвижение' %}</a></li>
+                                <li><a href="{% url 'web' %}">{% trans 'Разработка сайтa' %}</a></li>
+                                <li><a href="{% url 'brand' %}">Branding</a></li>
+                                <li><a href="{% url 'extra' %}">{% trans 'Extra Услуги' %}</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{% url 'portfolio' %}" 
+                            id="{% if request.path == '/portfolio/' %}nav-link-active{% endif %}">{% trans 'Портфолио' %}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'contact' %}"
+                            id="{% if request.path == '/contact/' %}nav-link-active{% endif %}">{% trans 'Контакт' %}</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="http://localhost:8000{{ request.path|to_rus }}"><img src="{% static 'images/icons/languages/Russia.png' %}" width="25" alt=""></a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="http://localhost:8000{{ request.path|to_eng }}"><img src="{% static 'images/icons/languages/Usa.png' %}" width="25" alt=""></a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="http://localhost:8000{{ request.path|to_uzb }}">
+                                <img src="{% static 'images/icons/languages/uzb.png' %}" width="25" alt="">
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                
+
+                <sidebar class="col-lg-3 p-extra-nav">
+                    <nav class="extra-nav">
+                        <ul class="nav-items">
+                            <li class="nav-item">
+                                <a href="http://localhost:8000{{ request.path|to_rus }}"><img src="{% static 'images/icons/languages/Russia.png'%}" width="22" alt="russia"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://localhost:8000{{ request.path|to_eng }}"><img src="{% static 'images/icons/languages/Usa.png'%}" width="22" alt="usa"></a>
+                            </li>
+                            <li><a href="http://localhost:8000{{ request.path|to_uzb }}">
+                                    <img src="{% static 'images/icons/languages/uzb.png' %}" width="23" alt="uzb">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </sidebar>
+
+            </nav> <!-- nav - row end //-->
+        </div>
+    </div>
+</header>

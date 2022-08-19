@@ -1,0 +1,227 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block meta %}
+    <meta name="description" content="Mars Marketing — креативное маркетинговое агентство, который работал более 50 компании  и на данный момент работаем с более чем 20 крупными локальными и зарубежными брендами в сфере онлайн маркетинг.">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta property="og:title" content="Mars Marketing — креативное маркетинговое агентство">
+    <meta property="og:description" content="Mars Marketing — креативное маркетинговое агентство, ориентированное на результат"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+    
+{% endblock meta %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock style %}
+
+{% block title %}
+    About - Mars Marketing
+{% endblock title %}
+
+{% block content %}
+  
+<section class="intro intro-about intro-services">
+    
+    <div class="intro-inner">
+        <div class="container">
+                    
+                <h1 class="intro-title intro-about-title intro-services-title">{% trans 'Эффективное Маркетинг Агенство' %}</h1>
+                <div class="btn-cnc mt-3">
+                    <a class="btn btn-danger" href="tel:{{ contact.phone_number }}">
+                        {% trans 'Позвоните нам' %}
+                    </a>
+            </div>
+            
+
+        </div>
+    </div> <!-- intro - inner end// -->
+    
+</section>
+
+
+<section class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <img src="{% static 'images/about-us.jpg' %}" width="100%" alt="">
+            </div>
+            <div class="col-lg-5">
+                <div class="pl-service">
+                    <h3 class="about-us-title">
+                        {% trans 'О нас' %}
+                    </h3>
+                    <p class="about-us-text">
+                        {% trans 'Mars Marketing — креативное маркетинговое агентство, ориентированное на результат. За 1 года успешной работы мы продемонстрировали кейсы и реализовали более 50 проектов в сфере маркетинга, брендинга и производства и на данный момент работаем с более чем 20 крупными локальными и зарубежными брендами в сфере онлайн маркетинг. Креативность – это нашанаша превосходящая сторона Впечатленный? И это только начало!' %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="work">
+    <div class="container">
+
+
+        <div class="row work-main gy-3">
+
+            <div class="col-lg-6">
+                <div class="pl-service">
+                    <h3 class="work-main-title">{% trans 'Наша работа' %}</h3>
+                    <p class="work-subtitle">
+                        {% trans 'Наша работа – это выверенная стратегия, основанная на детальном анализе, творческом подходе, использовании самых эффективных инструментов продвижения и регулярной аналитике' %}.
+                    </p>
+                </div>
+               
+            </div>
+            <div class="col-lg-6">
+                <div class="pl-service ps-2">
+
+                    
+                    <div class="row gy-3">
+                        <div class="col-lg-6">
+                            <article class="work-article">
+                                
+                                <h4 class="work-article-title">
+                                    1. {% trans 'Опыт' %}
+                                </h4>
+                                <hr>
+                                <p class="work-contect">
+                                    {% trans 'Имеем большой опыт и проверенные кейсы' %}
+                                </p>
+                            </article>
+                        </div> <!-- col end// -->
+                        <div class="col-lg-6">
+                            <article class="work-article">
+                                <h4 class="work-article-title">
+                                    2. {% trans 'Проффесионалы' %}
+                                </h4>
+                                <hr>
+                                <p class="work-contect">
+                                    {% trans 'Профессиональная команда специалистов' %}
+                                </p>
+                            </article>
+                        </div> <!-- col end// -->
+
+                        <div class="col-lg-6 mt-1">
+                            <article class="work-article">
+                                <h4 class="work-article-title">
+                                    3. {% trans 'Креативность' %}
+                                </h4>
+                                <hr>
+                                <p class="work-contect">
+                                    {% trans 'Нестандартный подход и креативное мышление' %}
+                                </p>
+                            </article>
+                        </div> <!-- col end //  -->
+
+                        <div class="col-lg-6 mt-1">
+                            <article class="work-article">
+                                <h4 class="work-article-title">
+                                    4. {% trans 'Высокие результаты' %}
+                                </h4>
+                                <hr>
+
+                                <p class="work-contect">
+                                    {% trans 'Прозрачная отчетность и работа только на высокий результат' %}
+                                </p>
+                            </article>
+                        </div>
+                    </div> <!-- row end //-->
+                </div>
+
+            </div> <!-- col end// -->
+
+        </div>
+
+        
+    </div>
+</section>
+
+<section class="advantage">
+    <div class="container">
+        <h3 class="advantage-title">{% trans 'Что мы делаем' %} ?</h3>
+        <main class="advantage-main">
+            <div class="row">
+                <div class="col-md-4 adv-card-parent">
+                    <article class="advantage-card first-adv-card">
+                        <h3 class="a-card-title">
+                            Branding
+                        </h3>
+                        <p class="a-card-desc">
+                            {% trans 'Разработка нейминга, логотипа, гайдлайна и брендбука для формирования «имиджа» вашей компании на рынке' %}.
+                        </p>
+                    </article>
+                </div> <!-- col end// --> 
+                <div class="col-md-4 adv-card-parent">
+                    <article class="advantage-card">
+                        <h3 class="a-card-title">
+                            Smm
+                        </h3>
+                        <p class="a-card-desc">
+                            {% trans 'Эффективное продвижение компаний посредством социальных сетей. Работаем как на узнаваемость брендов' %}.
+                        </p>
+                    </article>
+                </div> <!-- col end// -->
+                <div class="col-md-4 adv-card-parent">
+                    <article class="advantage-card">
+                        <h3 class="a-card-title">
+                            Extra
+                        </h3>
+                        <p class="a-card-desc">
+                            {% trans 'Для вашей компании, Mars Marketing предлагает вам SEO-оптимизация, Google ads, Yandex Metrika и многое другое' %}
+                        </p>
+                    </article>
+                </div> <!-- col end// -->
+            </div> <!-- row end// -->
+        </main>
+    </div>
+</section>
+
+<section class="stat">
+    <div class="container">
+        <div class="row gy-3">
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title">{{ result.experience }}+</h4>
+                    <p class="stat-desc">
+                        {% trans 'Годы Опыта' %}
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title">{{ result.clients }}+</h4>
+                    <p class="stat-desc">
+                        {% trans 'Клиенты' %}
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title">{{ result.projects }}+</h4>
+                    <p class="stat-desc">
+                        {% trans 'Проекты' %} 
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+                <article class="stat-article">
+                    <h4 class="stat-title">{{ result.team }}+</h4>
+                    <p class="stat-desc">
+                        {% trans 'Команда' %}
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "parts/sponsors.html" %}
+
+{% endblock content %}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Facebook-icon">
+    <path d="M0 0L50 0L50 50L0 50L0 0Z" id="Background" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M40 6.66667L9.99999 6.66667C8.15832 6.66667 6.66666 8.15834 6.66666 10L6.66666 40C6.66666 41.8417 8.15832 43.3333 9.99999 43.3333L26.6667 43.3333L26.6667 28.3333L21.6667 28.3333L21.6667 23.3333L26.6667 23.3333L26.6667 20.6483C26.6667 15.565 29.1433 13.3333 33.3683 13.3333C35.3917 13.3333 36.4617 13.4833 36.9683 13.5517L36.9683 18.3333L34.0867 18.3333C32.2933 18.3333 31.6667 19.28 31.6667 21.1967L31.6667 23.3333L36.9233 23.3333L36.21 28.3333L31.6667 28.3333L31.6667 43.3333L40 43.3333C41.8417 43.3333 43.3333 41.8417 43.3333 40L43.3333 10C43.3333 8.15834 41.84 6.66667 40 6.66667L40 6.66667Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>

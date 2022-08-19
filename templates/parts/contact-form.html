@@ -1,0 +1,35 @@
+{% load i18n %}
+<section class="contact" id="contact-form">
+    <div class="container">
+
+        <div class="contact-header">
+            <h2 class="contact-title">{% trans 'Готовы ли начать? Мы с нетерпением ждем приветствовать вас!' %}</h2>
+        </div>
+
+        <main class="contact-main">
+            <div class="row align-items-center gx-0">
+                <article class="col-md-6">
+                    <form class="p-form-contact" method="post" action="{% url 'contact' %}">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <!-- <input type="text" placeholder="Name*" class="form-contact">
+
+                        <input type="text" placeholder="Email*" class="form-contact">
+
+                        <input type="text" placeholder="Company Name*" class="form-contact" class="form-contact">
+
+                        <input type="text" placeholder="Phone Number*" class="form-contact" class="form-contact">
+                         -->
+                        <div class="parent-btn-contact">
+                            <button class="btn  btn-contact btn-dark">{% trans 'Send' %}</button>
+                        </div>
+                    </form>
+                </article>
+                <article class="col-md-6">
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/org/122593803273/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">PharmaClick. uz - Интернет аптека, доставка лекарств по Узбекистану</a><a href="https://yandex.uz/maps/10335/tashkent/category/pharmacy/184105932/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Аптека в Ташкенте</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUJqPgQoD" width="560" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                </article>
+            </div> <!-- row end // -->
+        </main>
+
+    </div>
+</section>

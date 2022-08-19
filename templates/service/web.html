@@ -1,0 +1,196 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block meta %}
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta property="og:title" content="Extra услуги - Mars Marketing">
+    <meta property="og:description" content="Mars Marketing - продвижение smm, Качественный услуги по продвижение высокие результаты"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+    <meta property="og:locale" content="ru_RU">
+{% endblock meta %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock style %}
+
+{% block title %}
+    {% trans 'Качественный продвижение smm в Ташкенте' %}
+{% endblock title %}
+
+{% block content %}
+
+    <section class="intro intro-web intro-services">
+        
+        <div class="intro-inner">
+            <div class="container">
+                        
+                <div class="intro-text">
+                    <h2 class="intro-title intro-smm-title intro-services-title">{% trans 'Разработка сайтов' %}</h2>
+                    <p class="intro-subtitle">
+                        {% trans 'Разработка высокого качественней веб-сайт с административной странницей, мы сделаем вас лендинг, корпаративной сайт, интернет магазин' %},
+                    </p>
+                </div>
+
+            </div>
+        </div> <!-- intro - inner end// -->
+        
+    </section>
+
+    
+
+    <section class="service service-smm">
+        <div class="container">
+                <div class="service-header">
+                    <h1 class="service-title">Web Development</h1>
+                </div>
+                <div class="service-main">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <article class="service-card">
+                                <h3 class="title">ONLINE SHOP</h3>
+                                <hr>
+                                <p class="content">
+                                    {% trans 'Удобная платформа для онлайн-продажи товаров/услуг вашей компании. Веб-сайт интегрируется с платежными системами, имеет широкий каталог и удобную навигацию.' %}.
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 service-txt-center">
+                            <article class="service-card">
+                                <h3 class="title">LANDING PAGE</h3>
+                                <hr>
+                                <p class="content">
+                                    {% trans 'Отличный вариант для компаний, кому веб-сайт нужен в качестве «визитки», поскольку в таком формате сайта отражена только ключевая информация о деятельности компании.' %}
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 service-txt-right">
+                            <article class="service-card">
+                                <h3 class="title">CORPORATE</h3>
+                                <hr>
+                                <p class="content">
+                                    {% trans 'Сайт, где представлена ключевая информация, свежие новости и актуальные предложения вашей компании.' %}
+                                </p>
+
+                            </article>
+                        </div>
+                    </div> <!-- service-main end //-->
+                </div>
+        </div>
+    </section>
+
+    {% include "parts/hope.html" %}
+
+    {% include "parts/projects-service.html" %}
+
+    <section class="offer offer-smm">
+        <div class="container">
+            <div class="offer-header">
+                <h2 class="offer-title">
+                    {% trans 'Почему вы должны выбрать нас' %}
+                </h2>
+            </div>
+
+            <div class="offer-main">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <article class="offer-article">
+                            <div class="icon">
+                                <img src="{% static 'images/icons/fast.svg' %}"  width="70" alt="">
+                            </div>
+                            <div class="offer-content">
+                                <p>
+                                    {% trans 'Современный веб-сайт' %}.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="offer-article">
+                            <div class="icon">
+                                <img src="{% static 'images/icons/secure.svg' %}" width="70" alt="">
+                            </div>
+                            <div class="offer-content">
+                                <p>
+                                    {% trans 'Безопасное и Качественный код' %}
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="offer-article">
+                            <div class="icon">
+                                <img src="{% static 'images/icons/effect.svg' %}" width="60" class="ads-icon" width="76" alt="">
+                            </div>
+                            <div class="offer-content">
+                                <p>
+                                    {% trans 'Функциональность и адаптивность' %}.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    {% include "parts/sponsors.html" %}
+
+
+    {% block script %}
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 100,
+            height: 100,
+            slidesPerView: 2,
+            centeredSlides: true,
+            loop:true,
+            spaceBetween: 20,
+
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                    allowSlideNext: true,
+                    allowSlidePrev: true,
+                }
+            }
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop:false,
+            slidesPerView: 1,
+            autoHeight: false,
+            autoplay: true,
+            effect: 'coverflow'
+
+
+            
+        });
+        
+    </script>
+
+    
+    {% endblock script %}
+
+{% endblock %}

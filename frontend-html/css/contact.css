@@ -1,0 +1,27 @@
+.contact_us {
+    background: #0c0c0c;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact_us-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact_us-service h5 {
+    color: #ebb9ff;
+}
+
+.contact_us-service p {
+    width: 200px;
+}
+
+.form-contact {
+    width: 100%;
+}
+
+.form-textarea {
+    resize: none;
+}

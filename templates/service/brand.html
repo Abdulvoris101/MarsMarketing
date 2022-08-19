@@ -1,0 +1,194 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block meta %}
+    <meta name="description" content="Mars Marketing заниметься разработкое брендинга, бренд позиционирование, веб разработка и продвижением smm">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta property="og:title" content="Mars Marketing — креативное маркетинговое агентство">
+    <meta property="og:description" content="Mars Marketing - брендинг продукта"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+    <meta property="og:locale" content="ru_RU">
+    
+    
+{% endblock meta %}
+
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock style %}
+
+{% block title %}
+    {% trans 'Разработка и продвижение бренда в Ташкенте' %}
+{% endblock title %}
+
+{% block content %}
+    
+<section class="intro intro-branding intro-services">
+        
+    <div class="intro-inner">
+        <div class="container">
+                    
+            <div class="intro-text">
+                <h2 class="intro-title intro-branding-title intro-services-title">Branding</h2>
+                <p class="intro-subtitle">
+                    {% trans 'Вне зависимости от специализации и масштаба, каждая компания должна быть узнаваемой и запоминающейся для потребителя, поэтому профессиональный брендинг в Узбекистане – незаменимая услуга для формирования стиля компании' %}.                </p>
+            </div>
+
+        </div>
+    </div> <!-- intro - inner end// -->
+    
+</section>
+
+
+<section class="service service-smm">
+    <div class="container">
+            <div class="service-header">
+                <h1 class="service-title">{% trans 'Branding для вашего компании' %}</h1>
+            </div>
+            <div class="service-main">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <article class="service-card">
+                            <h3 class="title">Naming</h3>
+                            <hr>
+                            <p class="content">
+                                {% trans 'Нейминг — ключевой фактор на этапе основания любой компании, ведь правильно подобранное имя бренда поможет повысить узнаваемость  потребителей к продукту' %}.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 service-txt-center">
+                        <article class="service-card">
+                            <h3 class="title">Logo</h3>
+                            <hr>
+                            <p class="content">
+                                {% trans 'Логотип – это лицо вашего бренда, поэтому к его разработке нужно подходить со всей осознанностью и ответственностью, доверив это дело профессионалам' %}.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 service-txt-right">
+                        <article class="service-card">
+                            <h3 class="title">Brandbook</h3>
+                            <hr>
+                            <p class="content">
+                                {% trans 'Набор корпоративных стандартов, в котором указывается позиционирование бренда, ключевые ценности компании, целевая аудитория' %}.
+
+                            </p>
+
+                        </article>
+                    </div>
+                </div> <!-- service-main end //-->
+            </div>
+    </div>
+</section>
+
+{% include "parts/hope.html" %}
+
+{% include "parts/projects-service.html" %}
+
+
+<section class="offer offer-smm">
+    <div class="container">
+        <div class="offer-header">
+            <h2 class="offer-title">
+                {% trans 'Почему вы должны выбрать нас?' %}
+            </h2>
+        </div>
+
+        <div class="offer-main">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/branding/user.png' %}"  width="55" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Компетентные специалисты' %}.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-4">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/branding/color-palette.png' %}" width="60" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Качественный дизайн' %}
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="offer-article">
+                        <div class="icon">
+                            <img src="{% static 'images/icons/branding/idea.png' %}" width="60" class="ads-icon" width="76" alt="">
+                        </div>
+                        <div class="offer-content">
+                            <p>
+                                {% trans 'Креативный подход' %}
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% include "parts/sponsors.html" %}
+
+{% endblock content %}
+
+
+{% block script %}
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 100,
+        height: 100,
+        slidesPerView: 2,
+        centeredSlides: true,
+        loop:true,
+        spaceBetween: 5,
+        allowSlideNext: true,
+        allowSlidePrev: true,
+
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+                allowSlideNext: true,
+                allowSlidePrev: true,
+            }
+        }
+    });
+    
+    var swiper2 = new Swiper(".mySwiper2", {
+        loop:false,
+        slidesPerView: 1,
+        autoHeight: false,
+        autoplay: true,
+        effect: 'coverflow'
+    });
+    
+</script>
+{% endblock script %}

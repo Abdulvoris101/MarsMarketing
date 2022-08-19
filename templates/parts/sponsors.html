@@ -1,0 +1,17 @@
+{% load i18n %}
+<section class="sponsor">
+    <div class="container">
+        <div class="sponsor-header">
+            <h1 class="sponsor-title text-center">{% trans "Мы уже сделали это для них" %}
+            </h1>
+        </div>
+        <div class="sponsor-main  gy-4 row">
+            
+           {% for company in companies %}
+                <div class="col-md-3 col-6 ">
+                    <img src="{{ company.image.url }}" width="120" alt="">
+                </div>
+           {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+{% load static i18n %}
+<div class="hope">
+    <div class="container">
+        <div class="hope-inner">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static 'images/hope.png' %}" class="hope-img"  alt="">
+                </div>
+                <div class="col-md-6 d-flex col-sm-12 align-items-center">
+                    <div class="hope-text">
+                        <h2 class="hope-title">
+                            {% trans 'Мы трансформируем абстрактные идеи в конкретные дизайнерские решения' %}
+                        </h2>
+                        <p>
+                            {% trans 'Мы решаем сложные формулировки проблем и превращаем их в целостный опыт.' %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+{% block title %}
+  404 - {% trans 'Страница не найдена' %}
+{% endblock title %}
+
+{% block style %}
+    <style>
+        .contact {
+            display: none !important;
+        }
+        .intro {
+            height: 90vh !important;
+            background-image: url('/static/images/404.jpg');
+        }
+    </style>
+{% endblock style %}
+
+{% block content %}
+    <section class="intro">
+       <div class="intro-inner">
+            <div class="container">
+                <h3 class="intro-title intro--title-404">{% trans "404 - Страница, которую вы ищете, не существует." %}</h3>
+            </div>
+       </div>
+    </section>
+{% endblock content %}

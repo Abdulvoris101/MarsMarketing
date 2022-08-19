@@ -1,0 +1,604 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-07 00:37+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\core\404.html:5
+msgid "Страница не найдена"
+msgstr "Page Not Found"
+
+#: .\templates\core\404.html:24
+msgid "404 - Страница, которую вы ищете, не существует."
+msgstr "Страница, которую вы ищете, не существует"
+
+#: .\templates\core\about.html:32
+msgid "Эффективное Маркетинг Агенство"
+msgstr "Effective Marketing Agency"
+
+#: .\templates\core\about.html:35
+msgid "Позвоните нам"
+msgstr "Call Us"
+
+#: .\templates\core\about.html:55 .\templates\parts\nav.html:42
+msgid "О нас"
+msgstr "About Us"
+
+#: .\templates\core\about.html:58
+msgid ""
+"Mars Marketing — креативное маркетинговое агентство, ориентированное на "
+"результат. За 1 года успешной работы мы продемонстрировали кейсы и "
+"реализовали более 50 проектов в сфере маркетинга, брендинга и производства и "
+"на данный момент работаем с более чем 20 крупными локальными и зарубежными "
+"брендами в сфере онлайн маркетинг. Креативность – это нашанаша превосходящая "
+"сторона Впечатленный? И это только начало!"
+msgstr ""
+"Mars Marketing is a result-oriented creative marketing agency. For 1 year of "
+"successful work, we have demonstrated cases and implemented more than 50 "
+"projects in the field of marketing, branding and production, and at the "
+"moment we are working with more than 20 large local and foreign brands in "
+"the field of online marketing. Creativity is our superior side Impressed? "
+"And this is just the beginning!"
+
+#: .\templates\core\about.html:75
+msgid "Наша работа"
+msgstr "Our Work"
+
+#: .\templates\core\about.html:77
+msgid ""
+"Наша работа – это выверенная стратегия, основанная на детальном анализе, "
+"творческом подходе, использовании самых эффективных инструментов продвижения "
+"и регулярной аналитике"
+msgstr ""
+"Our work is a verified strategy based on detailed analysis, creative "
+"approach, use of the most effective promotion tools and regular analytics."
+
+#: .\templates\core\about.html:91
+msgid "Опыт"
+msgstr "Experience"
+
+#: .\templates\core\about.html:95
+msgid "Имеем большой опыт и проверенные кейсы"
+msgstr "We have extensive experience and proven cases"
+
+#: .\templates\core\about.html:102
+msgid "Проффесионалы"
+msgstr "Professionals"
+
+#: .\templates\core\about.html:106
+msgid "Профессиональная команда специалистов"
+msgstr "Professional team of specialists"
+
+#: .\templates\core\about.html:114
+msgid "Креативность"
+msgstr "Creativity"
+
+#: .\templates\core\about.html:118
+msgid "Нестандартный подход и креативное мышление"
+msgstr "Non-standard approach and creative thinking"
+
+#: .\templates\core\about.html:126
+msgid "Высокие результаты"
+msgstr "High results"
+
+#: .\templates\core\about.html:131
+msgid "Прозрачная отчетность и работа только на высокий результат"
+msgstr "Transparent reporting and work only for high results"
+
+#: .\templates\core\about.html:148
+msgid "Что мы делаем"
+msgstr "What are we doing"
+
+#: .\templates\core\about.html:157
+msgid ""
+"Разработка нейминга, логотипа, гайдлайна и брендбука для формирования "
+"«имиджа» вашей компании на рынке"
+msgstr ""
+"Development of naming, logo, guideline and brand book to form the image of "
+"your company in the market"
+
+#: .\templates\core\about.html:167
+msgid ""
+"Эффективное продвижение компаний посредством социальных сетей. Работаем как "
+"на узнаваемость брендов"
+msgstr ""
+"Effective promotion of companies through social networks. We work for brand "
+"awareness"
+
+#: .\templates\core\about.html:177
+msgid ""
+"Для вашей компании, Mars Marketing предлагает вам SEO-оптимизация, Google "
+"ads, Yandex Metrika и многое другое"
+msgstr ""
+"For your company, Mars Marketing offers you SEO optimization, Google ads, "
+"Yandex Metrika and more"
+
+#: .\templates\core\about.html:193 .\templates\core\index.html:117
+msgid "Годы Опыта"
+msgstr "Years of Experience"
+
+#: .\templates\core\about.html:201 .\templates\core\index.html:125
+msgid "Клиенты"
+msgstr "Clients"
+
+#: .\templates\core\about.html:209 .\templates\core\index.html:133
+msgid "Проекты"
+msgstr "Projects"
+
+#: .\templates\core\about.html:217 .\templates\core\index.html:141
+msgid "Команда"
+msgstr "Team"
+
+#: .\templates\core\contact.html:28
+msgid "Контакт - Mars Marketing"
+msgstr "Contact - Mars Marketing"
+
+#: .\templates\core\contact.html:39
+msgid "Свяжитесь с нами"
+msgstr "Contact us"
+
+#: .\templates\core\contact.html:41
+msgid ""
+"Звоните и мы ответим на все ваши вопросы. мы с нетерпением ждем возможности "
+"позвонить вам"
+msgstr ""
+"Call us and we will answer all your questions. we look forward to calling you"
+
+#: .\templates\core\contact.html:44
+msgid "Позвоните"
+msgstr "Call"
+
+#: .\templates\core\contact.html:59 .\templates\parts\nav.html:79
+msgid "Контакт"
+msgstr "Contact"
+
+#: .\templates\core\contact.html:65
+msgid "Кто мы"
+msgstr "Who are we"
+
+#: .\templates\core\contact.html:68
+msgid ""
+"Мы команда специалистов с практическим опытом в сфере маркетинга Продвижаем "
+"smm с лучшим качеством, использум лучшие канали для продвижениеб Сделаем "
+"logo для вашего компании и др."
+msgstr ""
+"We are a team of specialists with practical experience in the field of "
+"marketing We promote smm with the best quality, use the best channels for "
+"promotion, we will make a logo for your company, etc."
+
+#: .\templates\core\contact.html:74
+msgid "Рабочее время"
+msgstr "Working time"
+
+#: .\templates\core\contact.html:82
+msgid "Адрес"
+msgstr "Address"
+
+#: .\templates\core\contact.html:90
+msgid "Эл.Почта"
+msgstr "Email"
+
+#: .\templates\core\contact.html:99 .\templates\parts\footer.html:24
+msgid "Телефон Номер"
+msgstr "Phone number"
+
+#: .\templates\core\contact.html:110
+msgid "Оставьте комментарий"
+msgstr "Leave a comment"
+
+#: .\templates\core\contact.html:139 .\templates\parts\contact-form.html:24
+msgid "Send"
+msgstr "Send"
+
+#: .\templates\core\index.html:19
+msgid "Эффективное Маркетинговое Агентство в Узбекистане"
+msgstr "Effective Marketing Agency in  Uzbekistan"
+
+#: .\templates\core\index.html:37
+msgid "Более 100 брендов в портфолио за 2 года работы"
+msgstr "More than 100 brands in the portfolio for 2 years of work"
+
+#: .\templates\core\index.html:41
+msgid "Эффективное Маркетинг Агентство"
+msgstr "Effective Marketing Agency"
+
+#: .\templates\core\index.html:110
+msgid "Показатели"
+msgstr "Indicators"
+
+#: .\templates\core\index.html:152
+msgid "Наши Услуги"
+msgstr "Our services"
+
+#: .\templates\core\index.html:164
+msgid ""
+"Разработка нейминга, логотипа, гайдлайна и брендбука для  вашей компании в "
+"своем сегменте."
+msgstr ""
+"Development of naming, logo, guideline and brand book for your company in "
+"their segment."
+
+#: .\templates\core\index.html:166 .\templates\core\index.html:178
+#: .\templates\core\index.html:190 .\templates\core\index.html:202
+msgid "Больше"
+msgstr "More"
+
+#: .\templates\core\index.html:176
+msgid ""
+"Эффективное продвижение компаний  социальных сетей. Работаем как на "
+"узнаваемость брендов."
+msgstr ""
+"Effective promotion of companies through social networks. We work for brand "
+"awareness"
+
+#: .\templates\core\index.html:188
+msgid ""
+"Cоздание качественного  веб-сайта для вашего бизнеса. Мы предлагаем вам "
+"современый дизайн"
+msgstr ""
+"Creating a quality website for your business. We offer you modern design"
+
+#: .\templates\core\index.html:200
+msgid ""
+"Для вашей компании, Mars Marketing предлагает  вам  SEO-оптимизация, Google "
+"ads  и многое другое"
+msgstr ""
+"For your company, Mars Marketing offers you SEO optimization, Google adsand "
+"more"
+
+#: .\templates\core\index.html:218 .\templates\core\portfolio.html:34
+#: .\templates\parts\nav.html:75
+msgid "Портфолио"
+msgstr "Portfolio"
+
+#: .\templates\core\index.html:241
+msgid "другие проекты"
+msgstr "other projects"
+
+#: .\templates\core\index.html:252
+msgid "Вы пробуете много вещей"
+msgstr "You try a lot of things"
+
+#: .\templates\core\index.html:253
+msgid "но не получаете результаты"
+msgstr "but not getting results"
+
+#: .\templates\core\index.html:256
+msgid "Мы помогаем вас"
+msgstr "We help you"
+
+#: .\templates\core\index.html:270
+msgid "Снова ребрендинг вашего продукта"
+msgstr "Rebranding your product again"
+
+#: .\templates\core\index.html:283
+msgid "Найм дизайнера для редизайна вашего продукта"
+msgstr "Hiring a designer to redesign your product"
+
+#: .\templates\core\index.html:295
+msgid "Продвижение вашего продукта"
+msgstr "Promoting your product"
+
+#: .\templates\core\index.html:310
+msgid "Надежное продвижение бренда"
+msgstr "Reliable brand promotion"
+
+#: .\templates\core\portfolio.html:36
+msgid "Портфолио маркетинговой команды Mars  которые собрание в течении года"
+msgstr "Portfolio of the Mars marketing team who meet throughout the year"
+
+#: .\templates\core\portfolio.html:50
+msgid "Вот что мы делаем"
+msgstr "That's what we do"
+
+#: .\templates\core\portfolio.html:53
+msgid "Сортировать по"
+msgstr "Filter by"
+
+#: .\templates\parts\contact-form.html:6
+msgid "Готовы ли начать? Мы с нетерпением ждем приветствовать вас!"
+msgstr "Are you ready to start? We look forward to welcoming you!"
+
+#: .\templates\parts\footer.html:38
+msgid "Эл.адрес"
+msgstr "Email"
+
+#: .\templates\parts\footer.html:52
+msgid "Следите нас"
+msgstr "Follow Us"
+
+#: .\templates\parts\hope.html:12
+msgid "Мы трансформируем абстрактные идеи в конкретные дизайнерские решения"
+msgstr "We transform abstract ideas into concrete design solutions"
+
+#: .\templates\parts\hope.html:15
+msgid ""
+"Мы решаем сложные формулировки проблем и превращаем их в целостный опыт."
+msgstr ""
+"We solve complex problem formulations and turn them into a holistic "
+"experience."
+
+#: .\templates\parts\nav.html:49 .\templates\parts\nav.html:53
+msgid "Услуги"
+msgstr "Services"
+
+#: .\templates\parts\nav.html:57 .\templates\parts\nav.html:65
+#: .\templates\service\smm.html:32
+msgid "Smm продвижение"
+msgstr "Smm promotion"
+
+#: .\templates\parts\nav.html:58 .\templates\parts\nav.html:66
+msgid "Разработка сайтa"
+msgstr "Website development"
+
+#: .\templates\parts\nav.html:60 .\templates\parts\nav.html:68
+msgid "Extra Услуги"
+msgstr "Extra Services"
+
+#: .\templates\parts\sponsors.html:5
+msgid "Мы уже сделали это для них"
+msgstr "We already did it for them"
+
+#: .\templates\service\brand.html:25
+msgid "Разработка и продвижение бренда в Ташкенте"
+msgstr "Brand development and promotion in Tashkent"
+
+#: .\templates\service\brand.html:38
+msgid ""
+"Вне зависимости от специализации и масштаба, каждая компания должна быть "
+"узнаваемой и запоминающейся для потребителя, поэтому профессиональный "
+"брендинг в Узбекистане – незаменимая услуга для формирования стиля компании"
+msgstr ""
+"Regardless of specialization and scale, each company must be recognizable "
+"and memorable for the consumer, therefore professional branding in "
+"Uzbekistan is an indispensable service for shaping the style of the company"
+
+#: .\templates\service\brand.html:50
+msgid "Branding для вашего компании"
+msgstr "Branding for your company"
+
+#: .\templates\service\brand.html:59
+msgid ""
+"Нейминг — ключевой фактор на этапе основания любой компании, ведь правильно "
+"подобранное имя бренда поможет повысить узнаваемость  потребителей к продукту"
+msgstr ""
+"Naming is a key factor at the stage of founding any company, because a well-"
+"chosen brand name will help increase consumer awareness of the product"
+
+#: .\templates\service\brand.html:68
+msgid ""
+"Логотип – это лицо вашего бренда, поэтому к его разработке нужно подходить "
+"со всей осознанностью и ответственностью, доверив это дело профессионалам"
+msgstr ""
+"The logo is the face of your brand, so you need to approach its development "
+"with all awareness and responsibility, entrusting this matter to "
+"professionals"
+
+#: .\templates\service\brand.html:77
+msgid ""
+"Набор корпоративных стандартов, в котором указывается позиционирование "
+"бренда, ключевые ценности компании, целевая аудитория"
+msgstr ""
+"A set of corporate standards that specifies brand positioning, key values of "
+"the company, target audience"
+
+#: .\templates\service\brand.html:97
+msgid "Почему вы должны выбрать нас?"
+msgstr "Why should you choose us"
+
+#: .\templates\service\brand.html:111
+msgid "Компетентные специалисты"
+msgstr "Competent specialists"
+
+#: .\templates\service\brand.html:124
+msgid "Качественный дизайн"
+msgstr "Quality design"
+
+#: .\templates\service\brand.html:136
+msgid "Креативный подход"
+msgstr "Creative approach"
+
+#: .\templates\service\extra.html:20
+msgid "Extra услуги"
+msgstr "Extra services"
+
+#: .\templates\service\extra.html:22
+msgid ""
+"Продвижение вашего компании и мы предлагаем вам google ads, yandex metrika "
+"seo оптимизация и др."
+msgstr ""
+"Promotion of your company and we offer you google ads, yandex metrica seo "
+"optimization, etc."
+
+#: .\templates\service\extra.html:45
+msgid ""
+"SEO-оптимизация – поисковое продвижение, направленное на развитие вашего web-"
+"сайта, с целью улучшения позиций по целевым запросам в поисковиках (Google, "
+"Яндекс, Mail.ru и др.)"
+msgstr ""
+"SEO-optimization is a search promotion aimed at developing your website in "
+"order to improve positions for targeted queries in search engines (Google, "
+"Yandex, Mail.ru, etc.)"
+
+#: .\templates\service\extra.html:54
+msgid ""
+"Этот способ продвижения бренда на рынке позволяет размещать баннерную "
+"рекламу на всех доступных интернет-платформах, будь то сайт, либо мобильное "
+"приложение с нужной ЦА."
+msgstr ""
+"This method of brand promotion on the market allows you to place banner ads "
+"on all available Internet platforms, be it a website or a mobile application "
+"with the right target audience."
+
+#: .\templates\service\extra.html:63
+msgid ""
+"Оптимальный вариант для размещения рекламного видеоролика, который будет "
+"показан всем пользователям YouTube, подходящим под необходимую аудиторию"
+msgstr ""
+"The best option for placing a promotional video that will be shown to all "
+"YouTube users that fit the required audience"
+
+#: .\templates\service\smm.html:21 .\templates\service\web.html:21
+msgid "Качественный продвижение smm в Ташкенте"
+msgstr "High-quality smm promotion in Tashkent"
+
+#: .\templates\service\smm.html:34
+msgid ""
+"Этот инструмент цифрового маркетинга позволяет напрямую контактировать с "
+"потребителем, регулировать репутацию бренда, повышать лояльность к бренду за "
+"короткий промежуток времени"
+msgstr ""
+"This digital marketing tool allows you to directly contact the consumer, "
+"regulate brand reputation, increase brand loyalty in a short period of time."
+
+#: .\templates\service\smm.html:57
+msgid ""
+"Мы формируем контент-план на основе запросов клиента и реальных потребностей "
+"бизнеса, чтобы создать максимально эффективный контент для социальных сетей"
+msgstr ""
+"We form a content plan based on client requests and real business needs in "
+"order to create the most effective content for social networks."
+
+#: .\templates\service\smm.html:66
+msgid ""
+"Для достижения поставленных результатов мы проводим ежемесячную аналитику и "
+"предоставляем подробный отчет. Для нас важно, чтобы услуги SMM в Узбекистане "
+"оказывались профессионально"
+msgstr ""
+"To achieve the set results, we conduct monthly analytics and provide a "
+"detailed report. It is important for us that SMM services in Uzbekistan are "
+"provided professionally."
+
+#: .\templates\service\smm.html:75
+msgid ""
+"Гарантируем грамотную настройку таргетированной рекламы с учетом целевой "
+"аудитории компании, что позволяет добиться максимального результата"
+msgstr ""
+"We guarantee the competent setting of targeted advertising, taking into "
+"account the target audience of the company, which allows you to achieve "
+"maximum results."
+
+#: .\templates\service\smm.html:93 .\templates\service\web.html:93
+msgid "Почему вы должны выбрать нас"
+msgstr "Why should you choose us"
+
+#: .\templates\service\smm.html:107
+msgid "Быстрое smm-продвижение"
+msgstr "Fast SMM promotion"
+
+#: .\templates\service\smm.html:120
+msgid "Безопасное и креативное продвижение"
+msgstr "Safe and creative promotion"
+
+#: .\templates\service\smm.html:132
+msgid "Эффективное smm продвижение и каналы"
+msgstr "Effective smm promotion and channels"
+
+#: .\templates\service\web.html:32
+msgid "Разработка сайтов"
+msgstr "Website development"
+
+#: .\templates\service\web.html:34
+msgid ""
+"Разработка высокого качественней веб-сайт с административной странницей, мы "
+"сделаем вас лендинг, корпаративной сайт, интернет магазин"
+msgstr ""
+"Development of a high quality website with an administrative page, we we "
+"will make you a landing page, a corporate website, an online store"
+
+#: .\templates\service\web.html:57
+msgid ""
+"Удобная платформа для онлайн-продажи товаров/услуг вашей компании. Веб-сайт "
+"интегрируется с платежными системами, имеет широкий каталог и удобную "
+"навигацию."
+msgstr ""
+"A convenient platform for the online sale of goods / services of your "
+"company. Website integrates with payment systems, has a wide catalog and "
+"convenient navigation."
+
+#: .\templates\service\web.html:66
+msgid ""
+"Отличный вариант для компаний, кому веб-сайт нужен в качестве «визитки», "
+"поскольку в таком формате сайта отражена только ключевая информация о "
+"деятельности компании."
+msgstr ""
+"Great option for companies who need a website as a business card, since this "
+"site format reflects only key information about company activities."
+
+#: .\templates\service\web.html:75
+msgid ""
+"Сайт, где представлена ключевая информация, свежие новости и актуальные "
+"предложения вашей компании."
+msgstr ""
+"A site that provides key information, breaking news and topical offers of "
+"your company."
+
+#: .\templates\service\web.html:107
+msgid "Современный веб-сайт"
+msgstr "Modern website"
+
+#: .\templates\service\web.html:120
+msgid "Безопасное и Качественный код"
+msgstr "Safe and Quality code"
+
+#: .\templates\service\web.html:132
+msgid "Функциональность и адаптивность"
+msgstr "Professional team of specialists"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""

@@ -1,0 +1,200 @@
+{% extends 'layout/base.html' %}
+{% load static i18n %}
+
+
+{% block meta %}
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="yandex" content="index,follow" />
+    <meta property="og:title" content="Контакт - Mars Marketing">
+    <meta property="og:description" content="Свяжитесь с нами"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content= "https://{{ request.get_host }}{{ request.path }}"/>
+    <meta property="og:site_name" content="Mars Marketing"/>
+    
+{% endblock meta %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/service.css' %}">
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+
+<style>
+    #contact-form {
+        display: none !important;
+    }
+</style>
+{% endblock style %}
+
+{% block title %} {% trans 'Контакт - Mars Marketing' %} {% endblock %}
+
+{% block content %}
+  
+
+<section class="intro intro-contact intro-services">
+    
+    <div class="intro-inner">
+        <div class="container">
+                    
+            <div class="intro-text">
+                <h1 class="intro-title intro-contact-title intro-services-title">{% trans 'Свяжитесь с нами' %}</h1>
+                <p class="intro-subtitle" style="width: 300px">
+                    {% trans 'Звоните и мы ответим на все ваши вопросы. мы с нетерпением ждем возможности позвонить вам' %}
+                </p>
+                <div class="btn-cnc">
+                    <a class="btn btn-danger" href="tel:{{ contact.phone_number }}">{% trans 'Позвоните' %}</a>
+                </div>
+            </div>
+                
+
+        </div>
+    </div> <!-- intro - inner end// -->
+    
+</section>
+
+
+
+<section class="contact_us">
+    <div class="container">
+        <h2 class="contact_us-title">
+            {% trans 'Контакт' %}
+        </h2>
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <article class="contact_us-text">
+                    <h2 class="contact_us-text-title">{% trans 'Кто мы' %} ?</h2>
+
+                    <p class="contact_us-text-content">
+                        {% trans 'Мы команда специалистов с практическим опытом в сфере маркетинга Продвижаем smm с лучшим качеством, использум лучшие канали для продвижениеб Сделаем logo для вашего компании и др.' %}
+                    </p>
+
+                    <div class="row mt-3 contact_us-main-service">
+                        <div class="col-6">
+                            <article class="contact_us-service">
+                                <h5>{% trans 'Рабочее время' %}</h5>
+                                <p>
+                                    {{ contact_info.working_hours }}
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-6">
+                            <article class="contact_us-service">
+                                <h5>{% trans 'Адрес' %}</h5>
+                                <p>
+                                    {{ contact_info.address }}
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-6">
+                            <article class="contact_us-service">
+                                <h5>{% trans 'Эл.Почта' %}</h5>
+                                <p>
+                                    {{ contact_info.email_address }}
+                                    
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-6">
+                            <article class="contact_us-service">
+                                <h5>{% trans 'Телефон Номер' %}</h5>
+                                <p>
+                                    {{ contact_info.phone_number }}
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <form class="p-form-contact" method="post" action="{% url 'contact' %}">
+                    <h3 class="mb-4">{% trans 'Оставьте комментарий' %}</h3>
+                    <div class="row">
+                        {% csrf_token %}
+                        {{ form.non_field.errors }}
+
+                        <div class="col-lg-6">
+                            {{ form.name }}
+                            {{ form.name.errors }}
+                            
+                        </div>
+                        <div class="col-lg-6">
+                            {{ form.email }}
+                            {{ form.email.errors }}
+                        </div>
+                        <div class="col-lg-6">
+                            {{ form.company }}
+                            {{ form.company.errors }}
+                    
+                        </div>
+                        <div class="col-lg-6">
+                            {{ form.phone }}
+                            {{ form.phone.errors }}
+                        </div>
+
+                    </div>
+
+                    {{ form.message }}
+                    {{ form.message.errors }}
+                    <div class="parent-btn-contact">
+                        <button class="btn  btn-contact btn-outline-danger w-100" type="submit">{% trans 'Send' %}</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map">
+    <div style="position:relative;overflow:hidden;">
+        <a href="https://yandex.uz/maps/org/122593803273/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">PharmaClick. uz - Интернет аптека, доставка лекарств по Узбекистану</a><a href="https://yandex.uz/maps/10335/tashkent/category/pharmacy/184105932/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Аптека в Ташкенте</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUJeSvACD" width="100%" height="500" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+    </div>
+</section>
+
+    
+
+    
+{% block script %}
+  
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 100,
+        height: 100,
+        slidesPerView: 2,
+        centeredSlides: true,
+        loop:true,
+        spaceBetween: 20,
+
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 0
+            }
+        }
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+        loop:false,
+        slidesPerView: 1,
+        autoHeight: false,
+        autoplay: true,
+        effect: 'coverflow'
+    });
+
+    
+</script>
+
+{% endblock script %}
+
+{% endblock %}
